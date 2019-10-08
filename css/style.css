@@ -8019,9 +8019,9 @@ h1, h2, h3, h4, h5,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-  .coach .text h3 {
-    font-size: 24px; }
-    .coach .text h3 a {
+  .coach .text h5 {
+    font-size: 18px; }
+    .coach .text h5 a {
       color: #fff;
       text-transform: uppercase;
       font-weight: 600; }
