@@ -16,3 +16,5 @@ export class NotFound extends React.Component<Props, State> {
     );
   }
 }
+
+export default NotFound;

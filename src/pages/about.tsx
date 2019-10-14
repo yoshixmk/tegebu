@@ -18,3 +18,5 @@ export class About extends React.Component<Props, State> {
     );
   }
 }
+
+export default About;
