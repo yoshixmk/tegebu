@@ -1,19 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Tegebu`,
-    description: `Tegebu Static Web site generator powered by Gatsby.`,
-    author: `yoshixmk`,
+    title: 'Tegebu',
+    description: 'Tegebu Static Web site generator powered by Gatsby.',
+    author: 'yoshixmk',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    'gatsby-transformer-yaml',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+      resolve: 'gatsby-source-filesystem',
+      options: [
+        {
+          name: 'images',
+          path: `${__dirname}/src/images`,
+        },
+        {
+          name: 'config',
+          path: `${__dirname}/src/config`,
+        }
+      ],
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp'
   ],
 }
