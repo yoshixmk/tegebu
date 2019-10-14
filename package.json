@@ -1,0 +1,25 @@
+{
+  "name": "tegebu",
+  "version": "0.1.0",
+  "description": "awesome tabletop games club page",
+  "main": "index.js",
+  "repository": "git@github.com:yoshixmk/tegebu.git",
+  "author": "yoshixmk <pirori67@gmail.com>",
+  "contributors": [
+    "jamashita <jamashita@arachnid.xyz>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "devDependencies": {
+    "gatsby": "2.15.36",
+    "gatsby-plugin-react-helmet": "3.1.11",
+    "gatsby-plugin-sharp": "2.2.29",
+    "gatsby-source-filesystem": "2.1.31",
+    "gatsby-transformer-sharp": "2.2.21"
+  }
+}
