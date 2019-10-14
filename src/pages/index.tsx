@@ -2,13 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 type Props = {
-  data: {
-    site: {
-      siteMetadata: {
-        title: string;
-      };
-    };
-  };
+  salutation: string;
 };
 type State = {
 };
@@ -21,7 +15,7 @@ export class Index extends React.Component<Props, State> {
         <h1>Hi people</h1>
         <p>
           Welcome to your new{' '}
-          <strong>{this.props.data.site.siteMetadata.title}</strong> site.
+          <strong>{this.props.salutation}</strong> site.
         </p>
         <p>Now go build something great.</p>
         <Link to='/about'>about us</Link>
@@ -31,13 +25,15 @@ export class Index extends React.Component<Props, State> {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
+query {
+  allLettersYaml {
+    edges {
+      node {
+        salutation
       }
     }
   }
+}
 `;
 
 export default Index;

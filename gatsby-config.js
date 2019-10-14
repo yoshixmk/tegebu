@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Tegebu',
+    siteUrl: 'https://www.tegebu.com/',
     description: 'Tegebu Static Web site generator powered by Gatsby.',
     author: 'yoshixmk',
   },
