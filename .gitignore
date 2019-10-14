@@ -1,6 +1,5 @@
-**/node_modules/*
-**/dist/*
-**/coverage/*
-**/.cache/*
-**/tegebu/*
+node_modules/*
+.cache/*
+public/*
+!public/.gitkeep
 *.log
