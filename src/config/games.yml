@@ -13,7 +13,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '10分'
     tegepersons: '3-6'
-    tegedescription: '部屋に来た来訪者のなかに誰がいたか、また、誰がまだ部屋にいるかを話し合うゲーム。殺人鬼をボイラー室に送り込め'
+    tegedescription: '部屋に来た来訪者の中に誰がいたか、また、誰がまだ部屋にいるかを話し合う。殺人鬼をボイラー室に送り込めば勝ち'
     tegeimage: 'mokugekishatachi-no-yoru.jpg'
   -
     tegename: '犯人は踊る'
@@ -45,7 +45,7 @@ games:
     tegeeasiness: '普通'
     tegetime: '20分'
     tegepersons: '2-5'
-    tegedescription: 'お題の通りにタイルを揃えるだけだが、非常にもどかしい気持ちになる。苦手な人はとことん苦手'
+    tegedescription: 'お題の通りにタイルを揃えるだけだが、非常にもどかしい気持ちになる。苦手な人はとことん苦手。とあるお買いモノサービスにおける人気が異常に高い'
     tegeimage: 'nine-tiles.jpg'
   -
     tegename: 'Nine Tiles Panic'
@@ -53,7 +53,7 @@ games:
     tegeeasiness: '普通'
     tegetime: '20分'
     tegepersons: '2-5'
-    tegedescription: 'Nine Tilesを発展させたゲーム。タイルを繋げて道を繋げ、かつお題に挙げられた条件を満たすように街をつくる。苦手な人な何もできない、人を選ぶタイプのゲーム'
+    tegedescription: 'Nine Tilesを発展させたゲーム。タイルを繋げて道を繋げる。街を作る。お題に挙げられた条件を満たす。を同時にやる。苦手な人な何もできない、人を選ぶタイプのゲーム'
     tegeimage: 'nine-tiles-panic.jpg'
   -
     tegename: 'トマトマト'
@@ -69,7 +69,7 @@ games:
     tegeeasiness: '普通'
     tegetime: '20分'
     tegepersons: '3-4'
-    tegedescription: '全8の容疑者から、それぞれが異なる5枚をみて、犯人を当てる。なぜ他人がその容疑者を犯人と思うのか、などから見えていない容疑者も疑うことが必要。考えることの入門に適していると思う'
+    tegedescription: '全8名のうち、容疑者は3名。それぞれが異なる4枚をみて、犯人を当てる。なぜ他人がその容疑者を犯人と思うのか、などから見えていない容疑者も疑うことが必要'
     tegeimage: 'yabu-no-naka.jpg'
   -
     tegename: 'ZOGEN'
@@ -85,7 +85,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '30分'
     tegepersons: '2-6'
-    tegedescription: '酸素を共有する潜水士たちが、どこまで深くまで潜り、財宝を持って帰ってくるかを競う。簡単に帰れなくなるので余裕ブッこいているとあっけなくおなくなりになる'
+    tegedescription: '酸素を共有する潜水士たちが、どこまで深くまで潜り、財宝を持って帰ってくるかを競う。深いところにあるほど財宝の価値が高い。あっという間に酸素がなくなるので余裕ブッこいているとあっけなく帰れない'
     tegeimage: 'kaitei-tanken.jpg'
   -
     tegename: 'maskmen'
@@ -109,7 +109,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '30分'
     tegepersons: '2-8'
-    tegedescription: '時限爆弾8個を全て解除すれば勝ちの次元警察、爆発させれば勝ちのボマー団に分かれる。正体隠匿系のゲームは重く、深刻な雰囲気のゲームが多いが、軽く遊ぶことができる'
+    tegedescription: '爆弾解除班の次元警察と、爆弾魔のボマー団の勝負。時限爆弾8個を全て解除すれば次元警察の勝ち、爆発させればボマー団の勝ち。正体隠匿系のゲームは重く、深刻な雰囲気のゲームが多いが、これは軽く遊ぶことができる'
     tegeimage: 'time-bomb.jpg'
   -
     tegename: 'Secret Moon'
@@ -157,7 +157,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '15分'
     tegepersons: '5-8'
-    tegedescription: 'マスター以外の全員でお題が何かを当てる。マスターは「はい」「いいえ」などの答えのみが許されている。質問者の中に紛れこんでいるインサイダーは、自分がインサイダーであることがバレないように、マスター以外の全員がお題に辿り着けるように誘導する'
+    tegedescription: 'マスターとインサイダーが答えを知っている。マスター以外の全員で答えが何かを当てる。マスターは「はい」「いいえ」の答えられる。インサイダーは答えを知ってはいるが、自分がインサイダーであることがバレないように、マスター以外の全員が答えを当てられるように誘導する'
     tegeimage: 'insider.jpg'
   -
     tegename: 'ふくろと金貨'
@@ -173,7 +173,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '30分'
     tegepersons: '2-10'
-    tegedescription: '数値が書かれたカードを自分だけ見られないようにデコにつける。自分以外の全員の数値を見ることができる。全員で数値を少しずつ増やして叫び、その数が全員の合計した数値を超えたとき、コヨーテと呼べば勝ち。ルールは明快だが、なぜか時間がかかる'
+    tegedescription: '数値が書かれたカードを自分だけ見られないようにデコにつける。自分以外の全員の数値を見ることができる。前の人が呼んだ数よりも大きな数を呼ぶか、コヨーテと叫ぶことができる。全員の合計した数値を超えたとき、コヨーテと呼べば勝ち。ルールは明快だが、なぜか時間がかかる'
     tegeimage: 'coyote.jpg'
   -
     tegename: 'KAKERLAKEN POKER'
@@ -261,7 +261,7 @@ games:
     tegeeasiness: '非常んい軽い'
     tegetime: '20分'
     tegepersons: '2-8'
-    tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる。単純だがそれなりに盛り上がる'
+    tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる。単純だがそれなりに盛り上がる。無印との差異はほぼない'
     tegeimage: 'geistesblitz-2.0.jpg'
   -
     tegename: 'Geistesblitz 5 vor 12'
@@ -269,7 +269,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '20分'
     tegepersons: '2-8'
-    tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる。単純だがそれなりに盛り上がる。Geistesblitz, Geistesblitz 2.0 より難易度が高い。箱がでかすぎる'
+    tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる。単純だがそれなりに盛り上がる。箱がでかすぎる'
     tegeimage: 'geistesblitz-5-vor-12.jpg'
   -
     tegename: 'Love Letter'
@@ -277,7 +277,7 @@ games:
     tegeeasiness: '軽い'
     tegetime: '10分'
     tegepersons: '2-4'
-    tegedescription: '自分が持っているカードがなにかバレないように、より強いカードを持つ。強いカードは戦闘があるとき相手を脱落させられるが、何を持っているのかがバレると負けてしまう'
+    tegedescription: '自分が持っているカードがなにかバレないように、より強いカードを持つ。強いカードは戦闘があるとき相手を脱落させられるが、何を持っているのかがバレるとたちまち負けてしまう'
     tegeimage: 'love-letter.jpg'
   -
     tegename: 'Lovecraft Letter'
@@ -341,7 +341,7 @@ games:
     tegeeasiness: '普通'
     tegetime: '30分'
     tegepersons: '5-10'
-    tegedescription: '人狼を、途中で脱落者が出ないように作り変えられたゲーム。最後まで議論に参加できる点では人狼より易しい。もちろんそれでも信頼されるとは限らないが'
+    tegedescription: '人狼を途中で脱落者が出ないように作り変えたゲーム。最後まで議論に参加できる点では人狼より易しい。もちろんそれでも信頼されるとは限らないが'
     tegeimage: 'the-resistance.jpg'
   -
     tegename: 'The Resistance Avalon'
@@ -349,7 +349,7 @@ games:
     tegeeasiness: '普通'
     tegetime: '30分'
     tegepersons: '5-10'
-    tegedescription: 'The Resistanceを中世アーサー王伝説っぽく変えたモノ、あまり変わらない'
+    tegedescription: 'The Resistanceを中世アーサー王伝説っぽく変えたモノ、ルール自体はあまり変わらない'
     tegeimage: 'the-resistance-avalon.jpg'
   -
     tegename: 'Saboteur'
@@ -381,7 +381,7 @@ games:
     tegeeasiness: '重い'
     tegetime: '40分'
     tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重く。これでも軽い方'
+    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy.jpg'
   -
     tegename: 'NATIONAL ECONOMY MÉCÉANT'
@@ -389,7 +389,7 @@ games:
     tegeeasiness: '重い'
     tegetime: '30分'
     tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重く。これでも軽い方'
+    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy-mecenat.jpg'
   -
     tegename: 'NATIONAL ECONOMY GLORY'
@@ -397,7 +397,7 @@ games:
     tegeeasiness: '重い'
     tegetime: '30分'
     tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重く。これでも軽い方'
+    tegedescription: '労働者を使い、従事させ、資本を稼ぐゲーム。ワーカープレイスメイントゲームは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy-glory.jpg'
   -
     tegename: 'ワードバスケット'
@@ -405,7 +405,7 @@ games:
     tegeeasiness: '非常に軽い'
     tegetime: '10分'
     tegepersons: '2-8'
-    tegedescription: 'いわゆるしりとりをカードでする。外国人が極端に不利なので、基本的に勧められない'
+    tegedescription: 'いわゆるしりとりをカードでする。外国人が極端に不利なので、基本的に勧められないし持ってこない'
     tegeimage: 'word-backet.jpg'
   -
     tegename: 'ピクテル'
@@ -429,7 +429,7 @@ games:
     tegeeasiness: '非常に重い'
     tegetime: '40分'
     tegepersons: '8-24'
-    tegedescription: 'タブラの狼のドイツ語版。同様にわざわざこれで遊ぶ必要はない'
+    tegedescription: 'タブラの人狼のドイツ語版。内容は同一。同様にわざわざこれで遊ぶ必要はない'
     tegeimage: 'lapus-in-tabla.jpg'
   -
     tegename: 'Lapus in Tabula La Vendetta della Lupa Mannara'
@@ -461,7 +461,7 @@ games:
     tegeeasiness: 'やや重い'
     tegetime: '30分'
     tegepersons: '2-4'
-    tegedescription: '人物を選び、装備を選び、ダンジョン攻略と言う名のモンスターたちとの戦い。ややビデオゲームよりの設定のため、ライトユーザーには好まれない'
+    tegedescription: '人物を選び、装備を選び、ダンジョン攻略と言う名のモンスターたちとの戦い。ややビデオゲームよりの設定のため、ライトユーザーがどう思うかが気になる'
     tegeimage: 'dungeon-of-mandom-viii.jpg'
   -
     tegename: '新成敗'
@@ -469,7 +469,7 @@ games:
     tegeeasiness: '重い'
     tegetime: '45分'
     tegepersons: '3-8'
-    tegedescription: '遊んだことがあるが忘れてしまった。印象が薄い。覚えるのが大変だった記憶がある。あんまり遊びたいとは思わない'
+    tegedescription: '遊んだことがあるが忘れてしまった。印象が薄い。覚えるのが大変だった記憶がある'
     tegeimage: 'shinseibai.jpg'
   -
     tegename: '舞星'
