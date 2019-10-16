@@ -10,7 +10,7 @@ type Props = {
 type State = {
 };
 
-export class Application extends React.Component<Props, State> {
+export class Header extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
     return (
