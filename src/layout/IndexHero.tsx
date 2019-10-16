@@ -23,7 +23,7 @@ export class IndexHero extends React.Component<Props, State> {
                 <span>Tabletop Games Club</span> <br/>Watch Our Video
               </a>
             </h3>
-            <div className='col-md-12 text-center ftco-animate'>
+            <div className='col-md-12 text-center'>
               <h1 className='mt-5' style={{
                 backgroundImage: 'url(images/bg_1.jpg)'
               }} data-stellar-background-ratio='0.5'>Tege<br/>bu</h1>
