@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import {Header} from '../layout/Header';
+import {Nav} from '../layout/Nav';
+import {IndexHero} from '../layout/IndexHero';
 
 type Props = {
   // salutation: string;
@@ -14,7 +16,9 @@ export class Index extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <h1>Hi peopleu</h1>
+        <Nav/>
+        <IndexHero/>
+        <h1>Hi people</h1>
         <p>
           Welcome to your new{' '}
           <strong>our web</strong> site.
