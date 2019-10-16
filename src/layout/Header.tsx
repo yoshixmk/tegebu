@@ -89,28 +89,28 @@ export class Header extends React.Component<Props, State> {
               rel: 'stylesheet'
             },
             {
-              href: './favicons/apple-touch-icon.png',
+              href: 'favicons/apple-touch-icon.png',
               rel: 'apple-touch-icon',
               sizes: '180x180'
             },
             {
-              href: './favicons/favicon-32x32.png',
+              href: 'favicons/favicon-32x32.png',
               rel: 'icon',
               sizes: '32x32',
               type: 'image/png'
             },
             {
-              href: './favicons/favicon-16x16.png',
+              href: 'favicons/favicon-16x16.png',
               rel: 'icon',
               sizes: '16x16',
               type: 'image/png'
             },
             {
-              href: './favicons/site.webmanifest',
+              href: 'favicons/site.webmanifest',
               rel: 'manifest'
             },
             {
-              href: './favicons/safari-pinned-tab.svg',
+              href: 'favicons/safari-pinned-tab.svg',
               rel: 'mask-icon',
               color: '#5bbad5'
             }
