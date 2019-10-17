@@ -18,7 +18,7 @@
   "dependencies": {
     "gatsby": "2.16.3",
     "gatsby-plugin-react-helmet": "3.1.13",
-    "gatsby-plugin-sharp": "2.2.31",
+    "gatsby-plugin-sharp": "2.2.32",
     "gatsby-plugin-typescript": "2.1.15",
     "gatsby-source-filesystem": "2.1.33",
     "gatsby-transformer-sharp": "2.2.23",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "12.11.1",
-    "@types/react": "16.9.7",
+    "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
     "@types/react-helmet": "5.0.12",
     "typescript": "3.6.4"
