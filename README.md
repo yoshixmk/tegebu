@@ -7,7 +7,7 @@ powered by Gatsby
 # environment
 
 1. `yarn install`
-1. `yarn server`
+1. `yarn develop`
 
 # build
 
