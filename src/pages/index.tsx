@@ -6,6 +6,8 @@ import {Slogan} from '../layout/Slogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
 import {TegeHighlight} from '../type/TegeHighlight';
 import {Link} from 'gatsby';
+import {TegeRule} from '../type/TegeRule';
+import {TegePromises} from '../layout/TegePromises';
 
 type Props = {
   // salutation: string;
@@ -14,7 +16,7 @@ type State = {
 };
 
 // TODO to yml file
-const thumbs: Array<TegeHighlight> = [
+const highlights: Array<TegeHighlight> = [
   {
     tegename: '目撃者たちの夜',
     tegedescription: 'まったく新しいロール決めの、正体隠匿ゲーム！',
@@ -31,6 +33,33 @@ const thumbs: Array<TegeHighlight> = [
     tegeinspiration: '敵の絨毯を邪魔しつつ、自分の絨毯を広げよう！'
   }
 ];
+const rules: Array<TegeRule> = [
+  {
+    tegeicon: 'flaticon-gym',
+    tegephrase: '笑顔',
+    tegeactivity: 'ゲームは楽しくなくては！自然と笑みがこぼれます'
+  },
+  {
+    tegeicon: 'flaticon-woman',
+    tegephrase: '交流',
+    tegeactivity: '初心者から経験者まで大歓迎！リアルなイベントが中心です'
+  },
+  {
+    tegeicon: 'flaticon-workout',
+    tegephrase: '多様',
+    tegeactivity: '仲間とボードゲームでつながる集まりです'
+  },
+  {
+    tegeicon: 'flaticon-meditation',
+    tegephrase: '共有',
+    tegeactivity: '今どきのテーブルゲームのトピックが手に入ります'
+  },
+  {
+    tegeicon: 'flaticon-stationary-bike',
+    tegephrase: '口コミ',
+    tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
+  }
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -42,7 +71,10 @@ export class Index extends React.Component<Props, State> {
         <IndexHero/>
         <Slogan />
         <TegeThumbs
-          hightlights={thumbs}
+          highlights={highlights}
+        />
+        <TegePromises
+          rules={rules}
         />
         <h1>Hi people</h1>
         <p>

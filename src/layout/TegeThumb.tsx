@@ -13,6 +13,7 @@ export class TegeThumb extends React.Component<Props, State> {
       tegedescription,
       tegeinspiration
     } = this.props;
+
     return (
       <div className='col-md-4'>
         <div className='pricing-wrap ftco-animate img' style={{
