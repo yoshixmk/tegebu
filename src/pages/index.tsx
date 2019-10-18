@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {IndexHero} from '../layout/IndexHero';
+import {Slogan} from '../layout/Slogan';
 
 type Props = {
   // salutation: string;
@@ -18,6 +19,7 @@ export class Index extends React.Component<Props, State> {
         <Header/>
         <Nav/>
         <IndexHero/>
+        <Slogan />
         <h1>Hi people</h1>
         <p>
           Welcome to your new{' '}
