@@ -28,6 +28,7 @@ export class TegeThumbs extends React.Component<Props, State> {
 
               return (
                 <TegeThumb
+                  key={tegename}
                   tegename={tegename}
                   tegedescription={tegedescription}
                   tegeinspiration={tegeinspiration}

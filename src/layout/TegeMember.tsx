@@ -22,7 +22,7 @@ export class TegeMember extends React.Component<Props, State> {
           <div className='col-lg-6 d-flex'>
             <div className='coach d-sm-flex align-items-stretch'>
               <div className='img' style={{
-                backgroundImage: `url(${memberImage});`
+                backgroundImage: `url(${memberImage})`
               }}/>
               <div className='text py-4 px-5 ftco-animate'>
                 <span className='subheading'>{subheading}</span>
@@ -43,7 +43,7 @@ export class TegeMember extends React.Component<Props, State> {
           <div className='col-lg-6 d-flex'>
             <div className='coach d-sm-flex align-items-stretch'>
               <div className='img order-xl-last' style={{
-                backgroundImage: `url(${memberImage});`
+                backgroundImage: `url(${memberImage})`
               }}/>
               <div className='text py-4 px-5 ftco-animate'>
                 <span className='subheading'>{subheading}</span>

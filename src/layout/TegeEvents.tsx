@@ -40,6 +40,7 @@ export class TegeEvents extends React.Component<Props, State> {
 
               return (
                 <TegeEvent
+                  key={eventName}
                   thumbnail={thumbnail}
                   year={year}
                   month={month}

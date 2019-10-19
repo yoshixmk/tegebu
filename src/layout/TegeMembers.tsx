@@ -39,6 +39,7 @@ export class TegeMembers extends React.Component<Props, State> {
 
               return (
                 <TegeMember
+                  key={memberName}
                   subheading={subheading}
                   memberName={memberName}
                   memberImage={memberImage}
