@@ -29,7 +29,7 @@ games:
     tegeimage: 'mokugekishatachi-no-yoru.jpg'
   -
     tegename: '犯人は踊る'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
     tegetime: 15
     tegepersons:
@@ -340,7 +340,7 @@ games:
     tegeimage: 'kakerlaken-poker.jpg'
   -
     tegename: 'MOGEL MOTTE'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
     tegetime: 20
     tegepersons:
@@ -348,12 +348,12 @@ games:
       - 4
       - 5
     tegeage: 7
-    tegedescription: 'このてげではひとりの監視役を除いてイカサマが認められている。それどこかイカサマをしないと捨てることができないカードがある、完全にイカサマ推奨である。監視役はイカサマを見逃さないようにカードてげを行う。手持ちのカードがなくなれば勝ち'
+    tegedescription: 'このてげではひとりの監視役を除いてイカサマが認められている。それどこかイカサマをしないと捨てることができないカードがある、完全にイカサマ推奨である。監視役はイカサマを見逃さないようにカードゲームを行う。手持ちのカードがなくなれば勝ち'
     tegeimpression: 'カードの隠し方、捨て方に容赦のない人がいるとカードが破損し遊べなくなるという、購入者泣かせのジンクスがある'
     tegeimage: 'mogel-motte.jpg'
   -
     tegename: 'neu'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '非常に軽い'
     tegetime: 10
     tegepersons:
@@ -542,7 +542,7 @@ games:
     tegeimage: 'geistesblitz-5-vor-12.jpg'
   -
     tegename: 'Love Letter'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
     tegetime: 10
     tegepersons:
@@ -555,7 +555,7 @@ games:
     tegeimage: 'love-letter.jpg'
   -
     tegename: 'Lovecraft Letter'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
     tegetime: 15
     tegepersons:
@@ -570,12 +570,12 @@ games:
     tegeimage: 'lovecraft-letter.jpg'
   -
     tegename: 'R-Rivals'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
     tegetime: 10
     tegepersons:
       - 2
-    tegedescription: '各々が7枚、独特な強さ、能力を持つカードを持ち、三番勝負をする。逆転要素を持つカードてげ'
+    tegedescription: '各々が7枚、独特な強さ、能力を持つカードを持ち、三番勝負をする。逆転要素を持つカードゲーム'
     tegeimpression: '2人でしか遊べないのが難点すぎる。遊んだことはない'
     tegeimage: 'r-rivals.jpg'
   -
@@ -696,351 +696,1046 @@ games:
     tegename: 'Saboteur'
     tegegenre: '正体隠匿'
     tegeeasiness: '普通'
-    tegetime: '30分'
-    tegepersons: '3-10'
+    tegetime: 30
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 8
     tegedescription: '炭鉱夫となり、金塊を掘り当てれば財産を山分けできるてげ。中には採掘を邪魔するSaboteurがおり、最後まで金塊を発掘させなければSaboteurの勝ち'
+    tegeimpression: 'お邪魔者、という邦題でも知られるてげ。早い段階で邪魔をすると集中砲火に会い、遅いと邪魔しきれない。いつ裏切るかがけっこう難しい'
     tegeimage: 'saboteur.jpg'
   -
     tegename: 'wow! werewolf'
     tegegenre: '正体隠匿'
     tegeeasiness: 'やや重め'
-    tegetime: '40分'
-    tegepersons: '5-16'
-    tegedescription: '人狼の世界観をボードてげに落とし込んだてげ。性質上人狼に慣れていないと理解が難しい'
+    tegetime: 40
+    tegepersons:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+    tegage: 10
+    tegedescription: '人狼の世界観をボードゲームに落とし込んだてげ。道を閉鎖することができ、閉鎖された先へは村人は逃げられれず、人狼は襲撃ができない'
+    tegeimpression: '性質上人狼に慣れていないと理解が難しい'
     tegeimage: 'wow-werewolf.jpg'
   -
     tegename: 'Marrakech'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '軽い'
-    tegetime: '20分'
-    tegepersons: '2-4'
-    tegedescription: 'ルールが明快で、誰でも遊べる。自分の陣地(絨毯)を拡大し、そこにコマ(アッサムさん)を停まらせればお金をもらうことができる'
+    tegetime: 20
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 6
+    tegedescription: '自分の陣地(絨毯)を拡大し、そこにコマ(アッサムさん)を停まらせればお金をもらうことができる'
+    tegeimpression: 'ルールが明快で、誰でも遊べる。アッサムさんの方向を決めることと、絨毯の配置は忘れることが多いので、周りで忘れないようにしてあげよう'
     tegeimage: 'marrakech.jpg'
   -
     tegename: 'NATIONAL ECONOMY'
     tegegenre: 'ワーカープレイスメント'
     tegeeasiness: '重い'
-    tegetime: '40分'
-    tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐてげ。ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
+    tegetime: 40
+    tegepersons:
+      - 1
+      - 2
+      - 3
+      - 4
+    tegeage: 12
+    tegedescription: '労働者を雇い、従事させ、資本を稼ぐてげ。指定数手番が回った後、もっとも資本を持っている人の勝ち'
+    tegeimpression: 'ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy.jpg'
   -
     tegename: 'NATIONAL ECONOMY MÉCÉANT'
     tegegenre: 'ワーカープレイスメント'
     tegeeasiness: '重い'
-    tegetime: '30分'
-    tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐてげ。ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
+    tegetime: 30
+    tegepersons:
+      - 1
+      - 2
+      - 3
+      - 4
+    tegeage: 12
+    tegedescription: '労働者を雇い、従事させ、資本を稼ぐてげ。指定数手番が回った後、もっとも資本を持っている人の勝ち'
+    tegeimpression: 'ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy-mecenat.jpg'
   -
     tegename: 'NATIONAL ECONOMY GLORY'
     tegegenre: 'ワーカープレイスメント'
     tegeeasiness: '重い'
-    tegetime: '30分'
-    tegepersons: '1-4'
-    tegedescription: '労働者を使い、従事させ、資本を稼ぐてげ。ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
+    tegetime: 30
+    tegepersons:
+      - 1
+      - 2
+      - 3
+      - 4
+    tegeage: 12
+    tegedescription: '労働者を雇い、従事させ、資本を稼ぐてげ。指定数手番が回った後、もっとも資本を持っている人の勝ち'
+    tegeimpression: 'ワーカープレイスメイントてげは全般的に重い。これでも軽い方'
     tegeimage: 'national-economy-glory.jpg'
   -
     tegename: 'ワードバスケット'
     tegegenre: 'しりとり'
     tegeeasiness: '非常に軽い'
-    tegetime: '10分'
-    tegepersons: '2-8'
-    tegedescription: 'いわゆるしりとりをカードでする。外国人が極端に不利なので、基本的に勧められないし持ってこない'
+    tegetime: 10
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+    tegeage: 10
+    tegedescription: 'いわゆるしりとりをカードでする。場に出ているカードに書かれている文字から始まり、手札にあるカードに書かれている文字で終わる、3文字以上の単語を叫びながら出す。全てのカードがなくなった人の勝ち'
+    tegeimpression: '外国人が極端に不利なので、基本的に勧められない'
     tegeimage: 'word-backet.jpg'
   -
     tegename: 'ピクテル'
     tegegenre: '不明'
     tegeeasiness: '軽い'
-    tegetime: '20分'
-    tegepersons: '3-6'
-    tegedescription: 'ピクトグラムの書かれたカードを組み合わせ、お題を表現する。それを他人が当てられたら得点。遊んだことはない'
+    tegetime: 20
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+    tegeage: 6
+    tegedescription: 'ピクトグラムの書かれたカードを組み合わせ、お題を表現する。それを他人が当てられたら得点'
+    tegeimpression: '遊んだことはない'
     tegeimage: 'pictell.jpg'
   -
     tegename: 'タブラの人狼'
     tegegenre: '正体隠匿'
     tegeeasiness: '非常に重い'
-    tegetime: '40分'
-    tegepersons: '8-24'
-    tegedescription: '日本で遊ばれている人狼の原種。古くて荒く、正直わざわざこれで遊ぶ必要はない'
+    tegetime: 40
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    tegeage: 8
+    tegedescription: '日本で遊ばれている人狼の原種だが、役職の世界観はけっこう適当。中世ヨーロッパでスーツきている役職がいたり'
+    tegeimpression: '古くて荒く、正直わざわざこれで遊ぶ必要はない'
     tegeimage: 'tabula-no-jinrou.jpg'
   -
     tegename: 'Lapus in tabula'
     tegegenre: '正体隠匿'
     tegeeasiness: '非常に重い'
-    tegetime: '40分'
-    tegepersons: '8-24'
-    tegedescription: 'タブラの人狼のドイツ語版。内容は同一。同様にわざわざこれで遊ぶ必要はない'
+    tegetime: 40
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    tegeage: 8
+    tegedescription: 'タブラの人狼のドイツ語版。内容は同一'
+    tegeimpression: 'それっぽい雰囲気を味わいたいならこちらのカードを使うのもアリかもしれない'
     tegeimage: 'lapus-in-tabla.jpg'
   -
     tegename: 'Lapus in Tabula La Vendetta della Lupa Mannara'
     tegegenre: '正体隠匿'
     tegeeasiness: '非常に重い'
-    tegetime: '45分'
-    tegepersons: '4-30'
-    tegedescription: 'Lapus in Tabulaの拡張。大抵人狼の拡張カードは奇をてらいすぎている。なくてもよい'
+    tegetime: 45
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+    tegeage: 8
+    tegedescription: 'Lapus in Tabulaの拡張。これだけで遊ぶことはできない'
+    tegeimpression: 'Lapus in Tabulaは基礎ともいえる役職しかない。そこでの拡張だが、見た限りピーキーな役職が多くおまけに英語(とイタリア語)のため、とっつきにくい'
     tegeimage: 'lapus-in-tabula-la-vendetta-della-pula-mannara.jpg'
   -
     tegename: 'トロイカ'
     tegegenre: '不明'
     tegeeasiness: '不明'
-    tegetime: '20分'
-    tegepersons: '2-5'
-    tegedescription: '遊んだことはない。マージャンみたいらしい'
+    tegetime: 20
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+    tegeage: 9
+    tegedescription: '数字の書かれたタイルを、特定の組み合わせで3枚集めると、効果を発揮する。それは得点の宝石にもなるし、生存するための燃料にもなる'
+    tegeimpression: '遊んだことはない。マージャンみたいらしい'
     tegeimage: 'troika.jpg'
   -
     tegename: 'DEATH NOTE 人狼'
     tegegenre: '正体隠匿'
     tegeeasiness: '重い'
-    tegetime: '15分'
-    tegepersons: '4-6'
-    tegedescription: '遊んだことはない。人数的に、あまり深入りしないタイプの人狼だと思われる。アイテムの概念があるため、やや難しめか'
+    tegetime: 15
+    tegepersons:
+      - 4
+      - 5
+      - 6
+    tegeage: 12
+    tegedescription: '人狼役はキラ。占い師はL。そんな人狼。キラはいつでも殺せるわけではなく、アイテムのデスノートと手にする必要があるなど、原作の雰囲気を壊さないように人狼をしている'
+    tegeimpression: '遊んだことはない。人数的に、あまり深入りしないタイプの人狼だと思われる。アイテムの概念があるため、やや難しめか'
     tegeimage: 'death-note-jinrou.jpg'
   -
     tegename: 'DUNGEON OF MANDOM VIII'
     tegegenre: '不明'
     tegeeasiness: 'やや重い'
-    tegetime: '30分'
-    tegepersons: '2-4'
-    tegedescription: '人物を選び、装備を選び、ダンジョン攻略と言う名のモンスターたちとの戦い。ややビデオてげよりの設定のため、ライトユーザーがどう思うかが気になる'
+    tegetime: 30
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 10
+    tegedescription: '人物を選び、装備を選び、ダンジョン攻略という名のモンスターたちとの戦い'
+    tegeimpression: 'ややビデオてげよりの設定のため、ライトユーザーがどう思うかが気になる'
     tegeimage: 'dungeon-of-mandom-viii.jpg'
   -
     tegename: '新成敗'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '重い'
-    tegetime: '45分'
-    tegepersons: '3-8'
-    tegedescription: '遊んだことがあるが忘れてしまった。印象が薄い。覚えるのが大変だった記憶がある'
+    tegetime: 45
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+    tegeage: 10
+    tegedescription: '悪人を成敗するてげ。強力型で競争型のてげではない。悪人には異なった正攻法があり、情報収拾してからでないと成敗が失敗してしまう'
+    tegeimpression: '遊んだことがあるが忘れてしまった'
     tegeimage: 'shinseibai.jpg'
   -
     tegename: '舞星'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '重い'
-    tegetime: '30分'
-    tegepersons: '3-6'
-    tegedescription: 'バランスが悪い。そこに気づく人がいなければそれなりに楽しめる'
+    tegetime: 30
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+    tegeage: 10
+    tegedescription: '次世代の芸者を育成するてげ'
+    tegeimpression: 'バランスが悪い。そこに気づく人がいなければそれなりに楽しめる'
     tegeimage: 'mai-star.jpg'
   -
     tegename: 'ito'
     tegegenre: '不明'
     tegeeasiness: '不明'
-    tegetime: '30分'
-    tegepersons: '2-10'
-    tegedescription: '遊んだことがない'
+    tegetime: 30
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 8
+    tegedescription: '2つの遊び方があるが、共通していえるのは、数字の書かれたカードを1枚所持し、その数値を直接口にせずに表現しあうというもの'
+    tegeimpression: '遊んだことがない。'
     tegeimage: 'ito.jpg'
   -
     tegename: 'テストプレイなんてしてないよ'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '重い'
-    tegetime: '5分'
-    tegepersons: '2-10'
-    tegedescription: 'このてげに限ったことではないが、カードてげは書かれている効果を検証する必要があるため、子供や外国人に受けない。これは特にひどい'
+    tegetime: 5
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 13
+    tegedescription: 'カードにはだいたい「〜〜すれば勝利」と書いてある。その通りにすれば勝利というてげ。つまり勝利条件が相当数存在する'
+    tegeimpression: 'このてげに限ったことではないが、カードゲームは書かれている効果を検証する必要があるため、子供や外国人に受けない'
     tegeimage: 'test-play-nante-shite-nai-yo.jpg'
   -
     tegename: 'テストプレイなんてしてないよ 黒'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '重い'
-    tegetime: '5分'
-    tegepersons: '2-10'
-    tegedescription: 'テストプレイなんてしてないよの拡張。遊んだことはない'
+    tegetime: 5
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 13
+    tegedescription: 'カードにはだいたい「〜〜すれば勝利」と書いてある。その通りにすれば勝利というてげ。つまり勝利条件が相当数存在する'
+    tegeimpression: 'このてげに限ったことではないが、カードゲームは書かれている効果を検証する必要があるため、子供や外国人に受けない'
     tegeimage: 'test-play-nante-shite-nai-yo-kuro.jpg'
   -
     tegename: '人狼ビギナーズ'
     tegegenre: '正体隠匿'
     tegeeasiness: '重い'
-    tegetime: '40分'
-    tegepersons: '3-15'
-    tegedescription: 'めちゃくちゃ安い。利益あるのか不安なレベル。役職は標準的な日本で遊ばれている人狼のセットだった'
+    tegetime: 40
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+    tegeage: 10
+    tegedescription: '標準的な日本で遊ばれている人狼のセット。飛び抜けた役職はないが、それなりにお勧めできる'
+    tegedeimpression: 'めちゃくちゃ安い。利益あるのか不安なレベル'
     tegeimage: 'jinrou-beginners.jpg'
   -
     tegename: '人狼ドッチ'
     tegegenre: '正体隠匿'
     tegeeasiness: '普通'
-    tegetime: '10分'
-    tegepersons: '3-8'
-    tegedescription: 'めちゃくちゃ安い。司会が要らない。人狼と違い2枚の役職を引き、好きな方を選び、もう片方を捨てて人狼をする'
+    tegetime: 10
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      -
+    tegeage: 10
+    tegedescription: '司会が要らない。普通の人狼と違い2枚の役職を引き、好きな方を選び、もう片方を捨てて人狼をする'
+    tegeimpression: 'めちゃくちゃ安い'
     tegeimage: 'jinrou-docchi.jpg'
   -
     tegename: '究極の人狼 究極版'
     tegegenre: '正体隠匿'
     tegeeasiness: '重すぎ'
-    tegetime: '60分'
-    tegepersons: '5-98'
-    tegedescription: '遊んだことはない。役職が非常に多く、この人狼を使わないと遊べないような人数で人狼したら、日が暮れると思う'
+    tegetime: 60
+    tegepersons:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+      - 81
+      - 82
+      - 83
+      - 84
+      - 85
+      - 86
+      - 87
+      - 88
+      - 89
+      - 90
+      - 91
+      - 92
+      - 93
+      - 94
+      - 95
+      - 96
+      - 97
+      - 98
+    tegeage: 13
+    tegedescription: '役職が非常に多い。ルール自体は一般的な人狼と同じ'
+    tegeimpression: 'この人狼を使わないと遊べないような人数で人狼したら、日が暮れると思う。実際に遊んだことはない。'
     tegeimage: 'kyuukyoku-no-jinrou-kyuukyoku-ban.jpg'
   -
     tegename: 'ULTIMATE WEREWOLF DELUXE EDITION'
     tegegenre: '正体隠匿'
     tegeeasiness: '重すぎ'
-    tegetime: '60分'
-    tegepersons: '5-75'
-    tegedescription: '遊んだことはない。究極の人狼の英語版、これも役職が多すぎる'
+    tegetime: 60
+    tegepersons:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+    tegeage: 13
+    tegedescription: '究極の人狼の英語版、これも役職が多すぎる'
+    tegeimpression: '遊んだことはない'
     tegeimage: 'ultimate-werewolf-deluxe-edition.jpg'
   -
     tegename: '究極の人狼'
     tegegenre: '正体隠匿'
     tegeeasiness: '重すぎ'
-    tegetime: '60分'
-    tegepersons: '5-74'
-    tegedescription: '遊んだことはない。役職が多すぎるのは言うまでもない。正直てげ時間は参考にならない'
+    tegetime: 60
+    tegepersons:
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+    tegeage: 13
+    tegedescription: '究極の人狼、の中では通常盤か。それでも役職は多く、他の人狼の追随を許さない'
+    tegeimpression: '遊んだことはない。正直てげ時間は参考にならない'
     tegeimage: 'kyuukyoku-no-jinrou.jpg'
   -
     tegename: '究極の人狼 異端審問'
     tegegenre: '正体隠匿'
     tegeeasiness: '重すぎ'
-    tegetime: '50分'
-    tegepersons: '3-12'
-    tegedescription: '人狼をカードてげっぽい要素を増やしたもの。かなり厳しい(遊びづらい)'
+    tegetime: 50
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+    tegeage: 8
+    tegedescription: 'ある村に住まう人狼を追い出すために、異端審問官として派遣されたところから話が始まる。ところが審問官のなかにも人狼が紛れ込んでおり、人狼の審問官は村に住まう人狼のために審問の邪魔を行う。脱落者が出ず、視界も不要のタイプのてげ'
+    tegeimpression: 'かなり厳しい(遊びづらい)。うまく時間調整しないと、一瞬で人狼が誰かバレてしまう'
     tegeimage: 'kyuukyoku-no-jinrou-itan-shinmon.jpg'
   -
     tegename: '人狼 DX'
     tegegenre: '正体隠匿'
     tegeeasiness: '重い'
-    tegetime: '40分'
-    tegepersons: '4-16'
-    tegedescription: '遊んだことはない。標準的な役職で、比較的お求めやすい'
+    tegetime: 40
+    tegepersons:
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+    tegeage: 10
+    tegedescription: '標準的な役職。絵柄もクセがなく、外れと感じる人が少ない'
+    tegeimpressoin: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている'
     tegeimage: 'jinrou-dx.jpg'
   -
     tegename: '人狼 SUPER DX'
     tegegenre: '正体隠匿'
     tegeeasiness: '重い'
-    tegetime: '50分'
-    tegepersons: '4-25'
-    tegedescription: '遊んだことはない。人狼 DXに役職を追加したもの。奇をてらった役職は少なく遊びやすい。これ単体でも遊べる。これを買うのがよい'
+    tegetime: 50
+    tegepersons:
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    tegeage: 10
+    tegedescription: '人狼 DXに役職を追加したもの。奇をてらった役職は少なく遊びやすい。これ単体でも遊べる'
+    tegeimpressoin: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている。人狼でどれを買おうか悩んでいる人はこれを買うのとよい'
     tegeimage: 'jinrou-super-dx.jpg'
   -
     tegename: '月下の人狼'
     tegegenre: '正体隠匿'
     tegeeasiness: '重すぎ'
-    tegetime: '60分'
-    tegepersons: '8-80'
-    tegedescription: '遊んだことはない。難しい役職が多い。無理して遊ぶ必要はない'
+    tegetime: 60
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+      - 54
+      - 55
+      - 56
+      - 57
+      - 58
+      - 59
+      - 60
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      - 77
+      - 78
+      - 79
+      - 80
+    tegeage: 12
+    tegedescription: '一般的な人狼に比べ、難しい役職が多い。また、人狼以外の人狼陣営の増殖によって、総合的に人狼が弱い役職になっている'
+    tegeimpression: '無理して遊ぶ必要はない'
     tegeimage: 'gekka-no-jinrou.jpg'
   -
     tegename: 'ONE NIGHT ULTIMATE WEREWOLF'
     tegegenre: '正体隠匿'
     tegeeasiness: 'やや重い'
-    tegetime: '10分'
-    tegepersons: '3-10'
-    tegedescription: '遊んだことはない。ワンナイト人狼に比べ役職が多く、ややこしい'
+    tegetime: 10
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 10
+    tegedescription: 'ワンナイト人狼。絵は西洋風。ワンナイト人狼にはない役職がある'
+    impression: '遊んだことはない。ワンナイト人狼に比べ役職が多く、ややこしい'
     tegeimage: 'one-night-ultimate-werewolf.jpg'
   -
     tegename: 'ONE NIGHT ULTIMATE WEREWOLF DAYBREAK'
     tegegenre: '正体隠匿'
     tegeeasiness: 'やや重い'
-    tegetime: '10分'
-    tegepersons: '3-７'
-    tegedescription: '遊んだことはない。単体でも遊べる'
+    tegetime: 10
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+    tegeage: 8
+    tegedescription: '単体でも遊べる'
+    tegeimpression: '遊んだことはない'
     tegeimage: 'one-night-ultimate-werewokf-daybreak.jpg)'
   -
     tegename: 'ONE NIGHT ULTIMATE VAMPIRE'
     tegegenre: '正体隠匿'
     tegeeasiness: 'やや重い'
-    tegetime: '10分'
-    tegepersons: '3-10'
-    tegedescription: '遊んだことはない。感想もない'
+    tegetime: 10
+    tegepersons:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    tegeage: 10
+    tegedescription: '遊んだことはない'
+    tegeimpression: 'とくになし'
     tegeimage: 'one-night-ultimate-vampire.jpg'
   -
     tegename: 'The Werewolves of Miller''s Hollow'
     tegegenre: '正体隠匿'
     tegeeasiness: '非常に重い'
-    tegetime: '30分'
-    tegepersons: '8-18'
-    tegedescription: 'Lapus in Tabulaと双璧をなすもうひとつの人狼。やや雰囲気が重く、人ひとりの命が軽く扱われる'
+    tegetime: 30
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+    tegeage: 10
+    tegedescription: 'Lapus in Tabulaと双璧をなすもうひとつの人狼。同じ人狼の同じ役職だから同じ能力、というわけではないのでこれで遊ぶときは確認しなおしたほうがよい'
+    tegeimpression: 'やや雰囲気が重く、人ひとりの命が軽く扱われる'
     tegeimage: 'the-werewolves-of-millers-hollow.jpg'
   -
     tegename: 'Characters for the Werewolves of Miller''s Hollow'
     tegegenre: '正体隠匿'
     tegeeasiness: '非常に重い'
-    tegetime: '30分'
-    tegepersons: '8-18'
-    tegedescription: 'ただでさえ重いThe Werewolves of Miller''s Hollowにさらに難解な役職を加える拡張としか言いようがない。これを蛇足という'
+    tegetime: 30
+    tegepersons:
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+    tegeage: 10
+    tegedescription: 'Miller''s Hollowはカードに役職名は書かれていないので、慣れる必要がある。これは、この拡張カードでも同じ'
+    tegeimpression: 'ただでさえ重いThe Werewolves of Miller''s Hollowにさらに難解な役職を加える拡張'
     tegeimage: 'characters-for-the-werewolves-of-millers-hillow.jpg'
   -
     tegename: 'Nocca x Nocca'
     tegegenre: '将棋、チェス'
     tegeeasiness: '軽い'
-    tegetime: '5分'
-    tegepersons: '2'
+    tegetime: 5
+    tegepersons:
+      - 2
+    tegeage: 6
     tegedescription: 'ふたりでしか遊べない。自分の陣地にいるコマを相手の陣地に運べば勝ち。コマの上に乗ることができ、乗られているコマは動かすことができない'
+    tegeimression: 'コンポーネントのうち、土台が残念すぎる。現在は次バージョンが出ているので、そちらを買うとよい'
     tegeimage: 'nocca-x-nocca.jpg'
   -
     tegename: 'DOBBLE'
     tegegenre: '瞬発力'
     tegeeasiness: '軽い'
-    tegetime: '10分'
-    tegepersons: '2-8'
+    tegetime: 10
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+    tegeage: 6
     tegedescription: '5つの遊び方がある。任意の2枚は、かならず1つだけ同じ模様がある。その性質を使って遊ぶ'
+    tegeimpression: '絵柄が豊富だが、その絵柄が何を指しているかは意見が分かれるときがあるので事前に確認しておくとよい'
     tegeimage: 'dobble.jpg'
   -
     tegename: '新幕 桜降る代に決闘を'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '非常に重い'
-    tegetime: '40分'
-    tegepersons: '2'
-    tegedescription: 'ふたりでしか遊べない上にデッキ構築が必要で、選び方も複雑。持参することはまずない'
+    tegetime: 40
+    tegepersons:
+      - 2
+    tegeage: 12
+    tegedescription: '自分のコマとするメガミを2柱選び、その組み合わせで対戦相手と勝負する'
+    tegeimpression: 'ひとつにまとめているが、多くの拡張が存在している。箱も多く、ひとつひとつがデカく、いつか遊びたいとは思っているが選び方も複雑で、持ってくることは難しいと思っている'
     tegeimage: 'shinmaku-sakura-furu-yo-ni-kettou-wo.jpg'
   -
     tegename: 'HEART OF CROWN'
     tegegenre: 'ドミニオンクローン'
     tegeeasiness: '非常に重い'
-    tegetime: '60分'
-    tegepersons: '2-4'
-    tegedescription: 'デッキを構築しながら遊ぶてげ。ドミニオンに代表されるように中毒性が高いが、まず大衆ウケしない'
+    tegetime: 60
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 12
+    tegedescription: 'デッキを構築しながら遊ぶてげ。ドミニオンに代表されるように中毒性が高い'
+    tegeimpression: '何戦もするうちにわかってくることが多く、さらっと遊ぶのに向いていない'
     tegeimage: 'heart-of-crown.jpg'
   -
     tegename: 'Carcasonne'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '非常に重い'
-    tegetime: '35分'
-    tegepersons: '2-5'
-    tegedescription: '遊んだことはない。ルール自体はそこまで複雑ではないが、大会が開かれるほど戦術に深みがある。つまり稚拙の差が出やすい'
+    tegetime: 35
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+    tegeage: 7
+    tegedescription: '道の書かれたタイルを、道が途切れないように繋げる。そして大きな土地、長い道に自分の手下(meeple)を設置する。手下は最後までその土地に駐在し、最終的に得点となるが、行動時にも使うものなので、駐在させると手数が減るというジレンマを持つ'
+    tegeimression: '遊んだことはない。ルール自体はそこまで複雑ではないが、大会が開かれるほど戦術に深みがある。つまり稚拙の差が出やすい'
     tegeimage: 'carcasonne.jpg'
   -
     tegename: 'The Red Dragon Inn'
-    tegegenre: 'カードてげ'
+    tegegenre: 'カードゲーム'
     tegeeasiness: '重め'
-    tegetime: '60分'
-    tegepersons: '2-4'
-    tegedescription: '対戦相手を物理で倒すか酩酊させて倒すてげ。ひねりがないと思ったが、続編が出るほど人気があるらしい'
+    tegetime: 60
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 13
+    tegedescription: '対戦相手を物理で倒すか酩酊させて倒すてげ。最後まで残れば勝ち'
+    tegeimpression: '対象年齢が高いのは酒や暴力に関する描写だと思われる。続編が出るほど人気があるらしい。物理を与えても酩酊さても同程度の被害を与えられるため、差がイマイチわからない'
     tegeimage: 'the-red-dragon-inn.jpg'
   -
     tegename: 'PANDEMIC'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '重め'
-    tegetime: '45分'
-    tegepersons: '2-4'
-    tegedescription: '協力型のてげ。協力型は対戦相手がいないので張り合いがない'
+    tegetime: 45
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 8
+    tegedescription: '協力型のてげ。世界中に蔓延した疫病を相手に人類が共闘する。現地へ赴く方が強い役職、指示が強い役職など役職もある。難易度はかなり高く、慣れないとあっという間に滅亡する'
+    tegeimpression: '協力型は対戦相手がいないので張り合いがない'
     tegeimage: 'pandemic.jpg'
   -
     tegename: 'PANDEMIC 迫り来る機器'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '重め'
-    tegetime: '45分'
-    tegepersons: '2-5'
-    tegedescription: '協力型のてげ。PANDEMICの拡張。協力型は対戦相手がいないので張り合いがない。遊んだことはない'
+    tegetime: 45
+    tegepersons:
+      - 2
+      - 3
+      - 4
+      - 5
+    tegeage: 13
+    tegedescription: '協力型のてげ。PANDEMICの拡張'
+    tegeimpression: '遊んだことはない。遊べる人数が増えている'
     tegeimage: 'pandemic-semarikuru-kiki.jpg'
   -
     tegename: 'PANDEMIC 科学の砦'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '重め'
-    tegetime: '45分'
-    tegepersons: '1-6'
-    tegedescription: '協力型のてげ。PANDEMICの拡張。協力型は対戦相手がいないので張り合いがない。遊んだことはない'
+    tegetime: 45
+    tegepersons:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+    tegeage: 13
+    tegedescription: '協力型のてげ。PANDEMICの拡張'
+    tegeimpression: '遊んだことはない。遊べる人数が増えている'
     tegeimage: 'pandemic-kagaku-no-toride.jpg'
   -
     tegename: 'PANDEMIC 緊急事態宣言'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '重め'
-    tegetime: '45分'
-    tegepersons: '1-6'
-    tegedescription: '協力型のてげ。PANDEMICの拡張。協力型は対戦相手がいないので張り合いがない。遊んだことはない'
+    tegetime: 45
+    tegepersons:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+    tegeage: 13
+    tegedescription: '協力型のてげ。PANDEMICの拡張'
+    tegeimpression: '遊んだことはない'
     tegeimage: 'pandemic-kinkyuu-jitai-sengen.jpg'
   -
     tegename: 'PANDEMIC CTHULHU'
-    tegegenre: 'ボードてげ'
+    tegegenre: 'ボードゲーム'
     tegeeasiness: '重め'
-    tegetime: '40分'
-    tegepersons: '2-4'
-    tegedescription: '協力型のてげ。PANDEMICの拡張ではないので単体で遊ぶことができる。協力型は対戦相手がいないので張り合いがない'
+    tegetime: 40
+    tegepersons:
+      - 2
+      - 3
+      - 4
+    tegeage: 14
+    tegedescription: '協力型のてげ。PANDEMICの拡張ではないので単体で遊ぶことができる。古きものたちが全員封印を解かれるまでに、異世界に繋がる門を封印する'
+    tegeimpression: 'クトゥルフのバックグラウンドがあると意味がわかりやすい'
     tegeimage: 'pandemic-cthulhu.jpg'
