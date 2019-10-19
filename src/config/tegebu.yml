@@ -40,7 +40,7 @@ events:
   -
     thumbnail: 'images/image_2.jpg'
     day: 1
-    month:
+    month: 10
     year: 2019
     eventName: 'Crossfit Harder Workout 4'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'

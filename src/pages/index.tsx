@@ -22,184 +22,51 @@ import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
 import {JS} from '../layout/JS';
 
+type Node = {
+  node: {
+    counts: Array<Count>;
+    events: Array<Event>;
+    highlights: Array<Highlight>;
+    members: Array<Member>;
+    rules: Array<Rule>;
+    words: Array<Word>;
+    works: Array<Work>;
+  };
+};
+
 type Props = {
-  // salutation: string;
+  data: {
+    allConfigYaml: {
+      edges: Array<Node>;
+    };
+  };
 };
 type State = {
 };
 
-// TODO to yml file
-const highlights: Array<Highlight> = [
-  {
-    tegename: '目撃者たちの夜',
-    tegedescription: 'まったく新しいロール決めの、正体隠匿ゲーム！',
-    tegeinspiration: '目撃された殺人鬼はどう動くのか。人狼並みの議論が楽しめます'
-  },
-  {
-    tegename: 'ふくろと金貨',
-    tegedescription: 'バレないように金貨を奪え！',
-    tegeinspiration: '相手を出し抜いたり、宝石で騙したりする戦略ゲーム'
-  },
-  {
-    tegename: 'Marrakech',
-    tegedescription: 'Marrakechとはモロッコの都市の名前で、ついにボードゲームになりました。',
-    tegeinspiration: '敵の絨毯を邪魔しつつ、自分の絨毯を広げよう！'
-  }
-];
-const rules: Array<Rule> = [
-  {
-    tegeicon: 'flaticon-gym',
-    tegephrase: '笑顔',
-    tegeactivity: 'ゲームは楽しくなくては！自然と笑みがこぼれます'
-  },
-  {
-    tegeicon: 'flaticon-woman',
-    tegephrase: '交流',
-    tegeactivity: '初心者から経験者まで大歓迎！リアルなイベントが中心です'
-  },
-  {
-    tegeicon: 'flaticon-workout',
-    tegephrase: '多様',
-    tegeactivity: '仲間とボードゲームでつながる集まりです'
-  },
-  {
-    tegeicon: 'flaticon-meditation',
-    tegephrase: '共有',
-    tegeactivity: '今どきのテーブルゲームのトピックが手に入ります'
-  },
-  {
-    tegeicon: 'flaticon-stationary-bike',
-    tegephrase: '口コミ',
-    tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
-  }
-];
-const counts: Array<Count> = [
-  {
-    start: 0,
-    end: 328,
-    about: 'Members'
-  },
-  {
-    start: 0,
-    end: 264,
-    about: 'Have Fun'
-  },
-  {
-    start: 0,
-    end: 176,
-    about: 'Working Hours'
-  },
-  {
-    start: 0,
-    end: 120,
-    about: 'Tabletop Games'
-  }
-];
-const members: Array<Member> = [
-  {
-    subheading: 'Head Coach',
-    memberName: 'JINRO',
-    memberImage: 'images/trainer-1.jpg',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
-    position: 'left'
-  },
-  {
-    subheading: 'Lead Organizer',
-    memberName: 'KARIUDO',
-    memberImage: 'images/trainer-2.jpg',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.',
-    position: 'left'
-  },
-  {
-    subheading: 'Lead Organizer',
-    memberName: 'YOGENSHA',
-    memberImage: 'images/trainer-3.jpg',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
-    position: 'right'
-  },
-  {
-    subheading: 'Organizer',
-    memberName: 'URANAISHI',
-    memberImage: 'images/trainer-4.jpg',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
-    position: 'right'
-  },
-];
-const words: Array<Word> = [
-  {
-    headshot: 'images/person_1.jpg',
-    word: '賽は投げられた。',
-    by: 'ガイウス・ユリウス・カエサル',
-    position: '特別顧問'
-  },
-  {
-    headshot: 'images/person_2.jpg',
-    word: '神はサイコロを降らない。',
-    by: 'アルベルト・アインシュタイン',
-    position: '偉大なる先輩'
-  }
-];
-const events: Array<Event> = [
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout 1',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout 2',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout 3',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_2.jpg',
-    day: 1,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout 4',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_3.jpg',
-    day: 20,
-    month: 7,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout 5',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  }
-];
-const works: Array<Work> = [
-  {
-    work: 'images/gallery-1.jpg',
-  },
-  {
-    work: 'images/gallery-2.jpg',
-  },
-  {
-    work: 'images/gallery-3.jpg',
-  },
-  {
-    work: 'images/gallery-4.jpg',
-  }
-];
-
 export class Index extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
-    console.log(this.props);
+    const {
+      data: {
+        allConfigYaml: {
+          edges: [
+            {
+              node: {
+                counts,
+                events,
+                highlights,
+                members,
+                rules,
+                words,
+                works
+              }
+            }
+          ]
+        }
+      }
+    } = this.props;
+
     return (
       <div>
         <Header/>
