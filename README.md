@@ -28,8 +28,10 @@ powered by Gatsby
           tegegenre
           tegeeasiness
           tegetime
-          tegedescription
           tegepersons
+          tegeage
+          tegedescription
+          tegeimpression
           tegeimage
         }
       }

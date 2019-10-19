@@ -1,0 +1,11 @@
+words:
+  -
+    headshot: 'images/person_1.jpg'
+    word: '賽は投げられた。'
+    by: 'ガイウス・ユリウス・カエサル'
+    position: '特別顧問'
+  -
+    headshot: 'images/person_2.jpg'
+    word: '神はサイコロを降らない。'
+    by: 'アルベルト・アインシュタイン'
+    position: '偉大なる先輩'

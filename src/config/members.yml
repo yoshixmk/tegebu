@@ -1,0 +1,25 @@
+members:
+  -
+    subheading: 'Head Coach'
+    memberName: 'JINRO'
+    memberImage: 'images/trainer-1.jpg'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
+    position: 'left'
+  -
+    subheading: 'Lead Organizer'
+    memberName: 'KARIUDO'
+    memberImage: 'images/trainer-2.jpg'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    position: 'left'
+  -
+    subheading: 'Lead Organizer'
+    memberName: 'YOGENSHA'
+    memberImage: 'images/trainer-3.jpg'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
+    position: 'right'
+  -
+    subheading: 'Organizer'
+    memberName: 'URANAISHI'
+    memberImage: 'images/trainer-4.jpg'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
+    position: 'right'

@@ -241,8 +241,11 @@ query {
   allConfigYaml {
     edges {
       node {
-        salutation
-        oink
+        highlights {
+          tegename
+          tegedescription
+          tegeinspiration
+        }
       }
     }
   }

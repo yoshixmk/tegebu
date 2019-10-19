@@ -1,0 +1,36 @@
+events:
+  -
+    thumbnail: 'images/image_1.jpg'
+    day: 28
+    month: 9
+    year: 2019
+    eventName: 'Crossfit Harder Workout 1'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  -
+    thumbnail: 'images/image_1.jpg'
+    day: 28
+    month: 9
+    year: 2019
+    eventName: 'Crossfit Harder Workout 2'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  -
+    thumbnail: 'images/image_1.jpg'
+    day: 28
+    month: 9
+    year: 2019
+    eventName: 'Crossfit Harder Workout 3'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  -
+    thumbnail: 'images/image_2.jpg'
+    day: 1
+    month:
+    year: 2019
+    eventName: 'Crossfit Harder Workout 4'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  -
+    thumbnail: 'images/image_3.jpg'
+    day: 20
+    month: 7
+    year: 2019
+    eventName: 'Crossfit Harder Workout 5'
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
