@@ -13,7 +13,9 @@ import {TegeCounters} from '../layout/TegeCounters';
 import {Member} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
 import {Word} from '../type/Word';
+import {Event} from '../type/Event';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
+import {TegeEvents} from '../layout/TegeEvents';
 
 type Props = {
   // salutation: string;
@@ -132,6 +134,48 @@ const words: Array<Word> = [
     position: '偉大なる先輩'
   }
 ];
+const events: Array<Event> = [
+  {
+    thumbnail: 'images/image_1.jpg',
+    day: 28,
+    month: 9,
+    year: 2019,
+    eventName: 'Crossfit Harder Workout',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  },
+  {
+    thumbnail: 'images/image_1.jpg',
+    day: 28,
+    month: 9,
+    year: 2019,
+    eventName: 'Crossfit Harder Workout',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  },
+  {
+    thumbnail: 'images/image_1.jpg',
+    day: 28,
+    month: 9,
+    year: 2019,
+    eventName: 'Crossfit Harder Workout',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  },
+  {
+    thumbnail: 'images/image_2.jpg',
+    day: 1,
+    month: 9,
+    year: 2019,
+    eventName: 'Crossfit Harder Workout',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  },
+  {
+    thumbnail: 'images/image_3.jpg',
+    day: 20,
+    month: 7,
+    year: 2019,
+    eventName: 'Crossfit Harder Workout',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+  }
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -156,6 +200,9 @@ export class Index extends React.Component<Props, State> {
         />
         <TegeTestimonies
           words={words}
+        />
+        <TegeEvents
+          events={events}
         />
         <Link to='/about'>about us</Link>
       </div>
