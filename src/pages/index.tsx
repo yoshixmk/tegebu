@@ -169,7 +169,7 @@ const events: Array<Event> = [
     day: 1,
     month: 9,
     year: 2019,
-    eventName: 'Crossfit Harder Workout',
+    eventName: 'Crossfit Harder Workout 4',
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   },
   {
@@ -177,7 +177,7 @@ const events: Array<Event> = [
     day: 20,
     month: 7,
     year: 2019,
-    eventName: 'Crossfit Harder Workout',
+    eventName: 'Crossfit Harder Workout 5',
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   }
 ];

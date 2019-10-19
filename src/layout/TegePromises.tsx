@@ -32,6 +32,7 @@ export class TegePromises extends React.Component<Props, State> {
 
                 return (
                   <TegePromise
+                    key={tegephrase}
                     tegeicon={tegeicon}
                     tegephrase={tegephrase}
                     tegeactivity={tegeactivity}
