@@ -16,6 +16,7 @@ import {Word} from '../type/Word';
 import {Event} from '../type/Event';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeEvents} from '../layout/TegeEvents';
+import {TegeContact} from '../layout/TegeContact';
 
 type Props = {
   // salutation: string;
@@ -204,6 +205,7 @@ export class Index extends React.Component<Props, State> {
         <TegeEvents
           events={events}
         />
+        <TegeContact/>
         <Link to='/about'>about us</Link>
       </div>
     );
