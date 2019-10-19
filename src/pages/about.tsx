@@ -12,7 +12,7 @@ import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
-import {TegeIntroductin} from '../layout/TegeIntroductin';
+import {TegeIntroduction} from '../layout/TegeIntroduction';
 
 type Props = {
 };
@@ -128,7 +128,7 @@ export class About extends React.Component<Props, State> {
         <TegeCounters
           counts={counts}
         />
-        <TegeIntroductin/>
+        <TegeIntroduction/>
         <TegeTestimonies
           words={words}
         />
