@@ -8,6 +8,8 @@ import {TegeHighlight} from '../type/TegeHighlight';
 import {Link} from 'gatsby';
 import {TegeRule} from '../type/TegeRule';
 import {TegePromises} from '../layout/TegePromises';
+import {TegeScouter} from '../type/TegeScouter';
+import {TegeCounters} from '../layout/TegeCounters';
 
 type Props = {
   // salutation: string;
@@ -60,6 +62,28 @@ const rules: Array<TegeRule> = [
     tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
   }
 ];
+const scouts: Array<TegeScouter> = [
+  {
+    start: 0,
+    end: 328,
+    about: 'Members'
+  },
+  {
+    start: 0,
+    end: 264,
+    about: 'Have Fun'
+  },
+  {
+    start: 0,
+    end: 176,
+    about: 'Working Hours'
+  },
+  {
+    start: 0,
+    end: 120,
+    about: 'Tabletop Games'
+  }
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -69,19 +93,16 @@ export class Index extends React.Component<Props, State> {
         <Header/>
         <Nav/>
         <IndexHero/>
-        <Slogan />
+        <Slogan/>
         <TegeThumbs
           highlights={highlights}
         />
         <TegePromises
           rules={rules}
         />
-        <h1>Hi people</h1>
-        <p>
-          Welcome to your new{' '}
-          <strong>our web</strong> site.
-        </p>
-        <p>Now go build something great.</p>
+        <TegeCounters
+          counts={scouts}
+        />
         <Link to='/about'>about us</Link>
       </div>
     );
