@@ -17,6 +17,8 @@ import {Event} from '../type/Event';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeEvents} from '../layout/TegeEvents';
 import {TegeContact} from '../layout/TegeContact';
+import {TegeGallery} from '../layout/TegeGallery';
+import {Work} from '../type/Work';
 
 type Props = {
   // salutation: string;
@@ -177,6 +179,20 @@ const events: Array<Event> = [
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   }
 ];
+const works: Array<Work> = [
+  {
+    work: 'images/gallery-1.jpg',
+  },
+  {
+    work: 'images/gallery-2.jpg',
+  },
+  {
+    work: 'images/gallery-3.jpg',
+  },
+  {
+    work: 'images/gallery-4.jpg',
+  }
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -206,6 +222,9 @@ export class Index extends React.Component<Props, State> {
           events={events}
         />
         <TegeContact/>
+        <TegeGallery
+          works={works}
+        />
         <Link to='/about'>about us</Link>
       </div>
     );
