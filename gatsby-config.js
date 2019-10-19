@@ -6,7 +6,6 @@ module.exports = {
     author: 'yoshixmk',
   },
   plugins: [
-    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -14,9 +13,16 @@ module.exports = {
         path: `${__dirname}/src/config`,
       }
     },
+    'gatsby-transformer-yaml',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-typescript'
-  ],
-}
+    'gatsby-plugin-typescript',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-149348992-1'
+      }
+    }
+  ]
+};

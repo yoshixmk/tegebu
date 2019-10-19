@@ -1,9 +1,5 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-149348992-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 type Props = {
 };
