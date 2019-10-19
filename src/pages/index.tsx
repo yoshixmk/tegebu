@@ -5,7 +5,6 @@ import {IndexHero} from '../layout/IndexHero';
 import {Slogan} from '../layout/Slogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
 import {Highlight} from '../type/Highlight';
-import {Link} from 'gatsby';
 import {Rule} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
 import {Count} from '../type/Count';
@@ -19,6 +18,9 @@ import {TegeEvents} from '../layout/TegeEvents';
 import {TegeContact} from '../layout/TegeContact';
 import {TegeGallery} from '../layout/TegeGallery';
 import {Work} from '../type/Work';
+import {Footer} from '../layout/Footer';
+import {Loader} from '../layout/Loader';
+import {JS} from '../layout/JS';
 
 type Props = {
   // salutation: string;
@@ -225,7 +227,9 @@ export class Index extends React.Component<Props, State> {
         <TegeGallery
           works={works}
         />
-        <Link to='/about'>about us</Link>
+        <Footer/>
+        <Loader/>
+        <JS/>
       </div>
     );
   }
