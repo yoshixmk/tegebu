@@ -51,7 +51,7 @@ events:
     year: 2019
     eventName: 'Crossfit Harder Workout 5'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-games:
+teges:
   -
     tegename: 'Exploding Kittens'
     tegegenre: 'バカ'
