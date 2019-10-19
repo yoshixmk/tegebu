@@ -12,6 +12,8 @@ import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {Member} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
+import {Word} from '../type/Word';
+import {TegeTestimonies} from '../layout/TegeTestimonies';
 
 type Props = {
   // salutation: string;
@@ -116,6 +118,20 @@ const members: Array<Member> = [
     position: 'right'
   },
 ];
+const words: Array<Word> = [
+  {
+    headshot: 'images/person_1.jpg',
+    word: '賽は投げられた。',
+    by: 'ガイウス・ユリウス・カエサル',
+    position: '特別顧問'
+  },
+  {
+    headshot: 'images/person_2.jpg',
+    word: '神はサイコロを降らない。',
+    by: 'アルベルト・アインシュタイン',
+    position: '偉大なる先輩'
+  }
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -137,6 +153,9 @@ export class Index extends React.Component<Props, State> {
         />
         <TegeMembers
           members={members}
+        />
+        <TegeTestimonies
+          words={words}
         />
         <Link to='/about'>about us</Link>
       </div>
