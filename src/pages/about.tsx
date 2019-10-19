@@ -1,6 +1,5 @@
 import React from 'react';
 import {Word} from '../type/Word';
-import {Event} from '../type/Event';
 import {Work} from '../type/Work';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeGallery} from '../layout/TegeGallery';
@@ -14,109 +13,43 @@ import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {TegeIntroduction} from '../layout/TegeIntroduction';
 
+type Node = {
+  node: {
+    counts: Array<Count>;
+    words: Array<Word>;
+    works: Array<Work>;
+  };
+};
+
 type Props = {
+  data: {
+    allConfigYaml: {
+      edges: Array<Node>;
+    };
+  };
 };
 type State = {
 };
 
-// TODO to yaml file
-const counts: Array<Count> = [
-  {
-    start: 0,
-    end: 5000,
-    about: 'Happy Co-volunteers'
-  },
-  {
-    start: 0,
-    end: 4560,
-    about: 'Perfect Bodies'
-  },
-  {
-    start: 0,
-    end: 570,
-    about: 'Working Hours'
-  },
-  {
-    start: 0,
-    end: 120,
-    about: 'Tabletop Games'
-  }
-];
-const words: Array<Word> = [
-  {
-    headshot: 'images/person_1.jpg',
-    word: '賽は投げられた。',
-    by: 'ガイウス・ユリウス・カエサル',
-    position: '特別顧問'
-  },
-  {
-    headshot: 'images/person_2.jpg',
-    word: '神はサイコロを降らない。',
-    by: 'アルベルト・アインシュタイン',
-    position: '偉大なる先輩'
-  }
-];
-const events: Array<Event> = [
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_1.jpg',
-    day: 28,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_2.jpg',
-    day: 1,
-    month: 9,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  },
-  {
-    thumbnail: 'images/image_3.jpg',
-    day: 20,
-    month: 7,
-    year: 2019,
-    eventName: 'Crossfit Harder Workout',
-    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
-  }
-];
-const works: Array<Work> = [
-  {
-    work: 'images/gallery-1.jpg',
-  },
-  {
-    work: 'images/gallery-2.jpg',
-  },
-  {
-    work: 'images/gallery-3.jpg',
-  },
-  {
-    work: 'images/gallery-4.jpg',
-  }
-];
-
-
 export class About extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
+    const {
+      data: {
+        allConfigYaml: {
+          edges: [
+            {
+              node: {
+                counts,
+                words,
+                works
+              }
+            }
+          ]
+        }
+      }
+    } = this.props;
+
     return (
       <div>
         <Header/>
@@ -142,5 +75,30 @@ export class About extends React.Component<Props, State> {
     );
   }
 }
+
+export const pageQuery = graphql`
+query {
+  allConfigYaml {
+    edges {
+      node {
+        counts {
+          start
+          end
+          about
+        }
+        words {
+          headshot
+          word
+          by
+          position
+        }
+        works {
+          work
+        }
+      }
+    }
+  }
+}
+`;
 
 export default About;
