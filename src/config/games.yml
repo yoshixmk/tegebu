@@ -67,7 +67,7 @@ games:
     tegepersons: '2-5'
     tegeage: 7
     tegedescription: 'Nine Tilesを発展させたてげ。推奨年齢が1歳増えている。タイルを繋げて道を繋げる。街を作る。お題に挙げられた条件を満たす。を同時にやる'
-    tegeimpressoin: '3条件を満たして初めて得点を得られる権利がある。苦手な人は本当に何もできない。人を選ぶタイプのてげ'
+    tegeimpression: '3条件を満たして初めて得点を得られる権利がある。苦手な人は本当に何もできない。人を選ぶタイプのてげ'
     tegeimage: 'nine-tiles-panic.jpg'
   -
     tegename: 'トマトマト'
@@ -454,7 +454,7 @@ games:
     tegeeasiness: 'やや重め'
     tegetime: 40
     tegepersons: '5-16'
-    tegage: 10
+    tegeage: 10
     tegedescription: '人狼の世界観をボードゲームに落とし込んだてげ。道を閉鎖することができ、閉鎖された先へは村人は逃げられれず、人狼は襲撃ができない'
     tegeimpression: '性質上人狼に慣れていないと理解が難しい'
     tegeimage: 'wow-werewolf.jpg'
@@ -696,7 +696,7 @@ games:
     tegepersons: '4-16'
     tegeage: 10
     tegedescription: '標準的な役職。絵柄もクセがなく、外れと感じる人が少ない'
-    tegeimpressoin: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている'
+    tegeimpression: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている'
     tegeimage: 'jinrou-dx.jpg'
   -
     tegename: '人狼 SUPER DX'
@@ -706,7 +706,7 @@ games:
     tegepersons: '4-25'
     tegeage: 10
     tegedescription: '人狼 DXに役職を追加したもの。奇をてらった役職は少なく遊びやすい。これ単体でも遊べる'
-    tegeimpressoin: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている。人狼でどれを買おうか悩んでいる人はこれを買うのとよい'
+    tegeimpression: '遊んだことはない。比較的お求めやすい。次に使うならこのカードセットだと思っている。人狼でどれを買おうか悩んでいる人はこれを買うのとよい'
     tegeimage: 'jinrou-super-dx.jpg'
   -
     tegename: '月下の人狼'
