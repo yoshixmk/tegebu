@@ -1,9 +1,9 @@
 import React from 'react';
-import {TegeHighlight} from '../type/TegeHighlight';
+import {Highlight} from '../type/Highlight';
 import {TegeThumb} from './TegeThumb';
 
 type Props = {
-  highlights: Array<TegeHighlight>;
+  highlights: Array<Highlight>;
 };
 type State = {
 };
@@ -19,7 +19,7 @@ export class TegeThumbs extends React.Component<Props, State> {
       <section className="ftco-section ftco-no-pb ftco-no-pt">
         <div className="container">
           <div className='row'>
-            {highlights.map<React.ReactElement>((highlight: TegeHighlight): React.ReactElement =>{
+            {highlights.map<React.ReactElement>((highlight: Highlight): React.ReactElement =>{
               const {
                 tegename,
                 tegedescription,

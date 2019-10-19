@@ -4,12 +4,14 @@ import {Nav} from '../layout/Nav';
 import {IndexHero} from '../layout/IndexHero';
 import {Slogan} from '../layout/Slogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
-import {TegeHighlight} from '../type/TegeHighlight';
+import {Highlight} from '../type/Highlight';
 import {Link} from 'gatsby';
-import {TegeRule} from '../type/TegeRule';
+import {Rule} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
-import {TegeScouter} from '../type/TegeScouter';
+import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
+import {Member} from '../type/Member';
+import {TegeMembers} from '../layout/TegeMembers';
 
 type Props = {
   // salutation: string;
@@ -18,7 +20,7 @@ type State = {
 };
 
 // TODO to yml file
-const highlights: Array<TegeHighlight> = [
+const highlights: Array<Highlight> = [
   {
     tegename: '目撃者たちの夜',
     tegedescription: 'まったく新しいロール決めの、正体隠匿ゲーム！',
@@ -35,7 +37,7 @@ const highlights: Array<TegeHighlight> = [
     tegeinspiration: '敵の絨毯を邪魔しつつ、自分の絨毯を広げよう！'
   }
 ];
-const rules: Array<TegeRule> = [
+const rules: Array<Rule> = [
   {
     tegeicon: 'flaticon-gym',
     tegephrase: '笑顔',
@@ -62,7 +64,7 @@ const rules: Array<TegeRule> = [
     tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
   }
 ];
-const scouts: Array<TegeScouter> = [
+const counts: Array<Count> = [
   {
     start: 0,
     end: 328,
@@ -84,6 +86,36 @@ const scouts: Array<TegeScouter> = [
     about: 'Tabletop Games'
   }
 ];
+const members: Array<Member> = [
+  {
+    subheading: 'Head Coach',
+    memberName: 'JINRO',
+    memberImage: 'images/trainer-1.jpg',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
+    position: 'left'
+  },
+  {
+    subheading: 'Lead Organizer',
+    memberName: 'KARIUDO',
+    memberImage: 'images/trainer-2.jpg',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.',
+    position: 'left'
+  },
+  {
+    subheading: 'Lead Organizer',
+    memberName: 'YOGENSHA',
+    memberImage: 'images/trainer-3.jpg',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
+    position: 'right'
+  },
+  {
+    subheading: 'Organizer',
+    memberName: 'URANAISHI',
+    memberImage: 'images/trainer-4.jpg',
+    description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a',
+    position: 'right'
+  },
+];
 
 export class Index extends React.Component<Props, State> {
 
@@ -101,7 +133,10 @@ export class Index extends React.Component<Props, State> {
           rules={rules}
         />
         <TegeCounters
-          counts={scouts}
+          counts={counts}
+        />
+        <TegeMembers
+          members={members}
         />
         <Link to='/about'>about us</Link>
       </div>

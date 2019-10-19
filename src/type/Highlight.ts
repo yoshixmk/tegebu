@@ -1,4 +1,4 @@
-export type TegeHighlight = {
+export type Highlight = {
   tegename: string;
   tegedescription: string;
   tegeinspiration: string;

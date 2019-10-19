@@ -1,7 +1,7 @@
 import React from 'react';
-import {TegeRule} from '../type/TegeRule';
+import {Rule} from '../type/Rule';
 
-type Props = TegeRule;
+type Props = Rule;
 type State = {
 };
 

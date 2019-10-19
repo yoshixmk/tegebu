@@ -1,7 +1,7 @@
 import React from 'react';
-import {TegeHighlight} from '../type/TegeHighlight';
+import {Highlight} from '../type/Highlight';
 
-type Props = TegeHighlight;
+type Props = Highlight;
 type State = {
 };
 

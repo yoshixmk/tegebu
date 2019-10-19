@@ -1,9 +1,9 @@
 import React from 'react';
-import {TegeScouter} from '../type/TegeScouter';
+import {Count} from '../type/Count';
 import {TegeCounter} from './TegeCounter';
 
 type Props = {
-  counts: Array<TegeScouter>;
+  counts: Array<Count>;
 };
 type State = {
 };
@@ -24,7 +24,7 @@ export class TegeCounters extends React.Component<Props, State> {
           <div className='row justify-content-center'>
             <div className='col-md-10'>
               <div className='row'>
-                {counts.map<React.ReactElement>((count: TegeScouter): React.ReactElement => {
+                {counts.map<React.ReactElement>((count: Count): React.ReactElement => {
                   const {
                     start,
                     end,

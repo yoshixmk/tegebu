@@ -1,7 +1,7 @@
 import React from 'react';
-import {TegeScouter} from '../type/TegeScouter';
+import {Count} from '../type/Count';
 
-type Props = TegeScouter;
+type Props = Count;
 type State = {
 };
 
