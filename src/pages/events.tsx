@@ -8,44 +8,39 @@ import {Hero} from '../layout/Hero';
 import {TegePromises} from '../layout/TegePromises';
 import {Rule} from '../type/Rule';
 
+type Node = {
+  node: {
+    rules: Array<Rule>;
+  };
+};
+
 type Props = {
+  data: {
+    allConfigYaml: {
+      edges: Array<Node>;
+    };
+  };
 };
 type State = {
 };
 
-// TODO to yaml file
-const rules: Array<Rule> = [
-  {
-    tegeicon: 'flaticon-gym',
-    tegephrase: '笑顔',
-    tegeactivity: 'ゲームは楽しくなくては！自然と笑みがこぼれます'
-  },
-  {
-    tegeicon: 'flaticon-woman',
-    tegephrase: '交流',
-    tegeactivity: '初心者から経験者まで大歓迎！リアルなイベントが中心です'
-  },
-  {
-    tegeicon: 'flaticon-workout',
-    tegephrase: '多様',
-    tegeactivity: '仲間とボードゲームでつながる集まりです'
-  },
-  {
-    tegeicon: 'flaticon-meditation',
-    tegephrase: '共有',
-    tegeactivity: '今どきのテーブルゲームのトピックが手に入ります'
-  },
-  {
-    tegeicon: 'flaticon-stationary-bike',
-    tegephrase: '口コミ',
-    tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
-  }
-];
-
-
 export class Events extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
+    const {
+      data: {
+        allConfigYaml: {
+          edges: [
+            {
+              node: {
+                rules
+              }
+            }
+          ]
+        }
+      }
+    } = this.props;
+
     return (
       <div>
         <Header/>
@@ -64,5 +59,21 @@ export class Events extends React.Component<Props, State> {
     );
   }
 }
+
+export const pageQuery = graphql`
+query {
+  allConfigYaml {
+    edges {
+      node {
+        rules {
+          tegeicon
+          tegephrase
+          tegeactivity
+        }
+      }
+    }
+  }
+}
+`;
 
 export default Events;
