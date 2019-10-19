@@ -7,7 +7,7 @@ type State = {
 
 // TODO each slogan should output into the yml file
 
-export class Slogan extends React.Component<Props, State> {
+export class TegeSlogan extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
     return (

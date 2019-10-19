@@ -2,7 +2,7 @@ import React from 'react';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {IndexHero} from '../layout/IndexHero';
-import {Slogan} from '../layout/Slogan';
+import {TegeSlogan} from '../layout/TegeSlogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
 import {Highlight} from '../type/Highlight';
 import {Rule} from '../type/Rule';
@@ -204,7 +204,7 @@ export class Index extends React.Component<Props, State> {
         <Header/>
         <Nav/>
         <IndexHero/>
-        <Slogan/>
+        <TegeSlogan/>
         <TegeThumbs
           highlights={highlights}
         />
