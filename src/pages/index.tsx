@@ -241,10 +241,44 @@ query {
   allConfigYaml {
     edges {
       node {
+        counts {
+          start
+          end
+          about
+        }
+        events {
+          thumbnail
+          day
+          month
+          year
+          eventName
+          description
+        }
         highlights {
           tegename
           tegedescription
           tegeinspiration
+        }
+        members {
+          subheading
+          memberName
+          memberImage
+          description
+          position
+        }
+        rules {
+          tegeicon
+          tegephrase
+          tegeactivity
+        }
+        words {
+          headshot
+          word
+          by
+          position
+        }
+        works {
+          work
         }
       }
     }
