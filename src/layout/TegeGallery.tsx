@@ -26,6 +26,7 @@ export class TegeGallery extends React.Component<Props, State> {
 
               return (
                 <TegeWork
+                  key={image}
                   work={image}
                 />
               );

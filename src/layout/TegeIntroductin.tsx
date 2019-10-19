@@ -11,7 +11,7 @@ export class TegeIntroductin extends React.Component<Props, State> {
     return (
       <section className='ftco-about d-md-flex'>
         <div className='one-half img' style={{
-          backgroundImage: 'url(images/about.jpg);'
+          backgroundImage: 'url(images/about.jpg)'
         }}>
           <a href='https://vimeo.com/45830194' className='icon popup-vimeo d-flex justify-content-center align-items-center'>
             <span className='icon-play'/>

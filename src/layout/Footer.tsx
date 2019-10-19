@@ -23,9 +23,9 @@ export class Footer extends React.Component<Props, State> {
                 <p>Nous sommes un groupe d'amoureux de jeux de table au Japon. Nous appelons 'Tegebu' pour nous-mêmes. C'est bon marché pour participer. toutes les acitiviteés sont soutenues par les bélévoles des organisateurs.</p>
                 <p>Nosotros somos un grupo de los amantes de juegos de mesa en Japón. Nosotros llamamos 'Tegebu' para nosotros mismos. Es barato participar. Todas las activitidades son apoyadas por los volintarios de los organizores.</p>
                 <ul className='ftco-footer-social list-unstyled float-md-left float-lft mt-5'>
-                  <li className='ftco-animate'><a href='https://tegebu.slack.com/'><span className='icon-slack'></span></a></li>
-                  <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/'><span className='icon-facebook'></span></a></li>
-                  <li className='ftco-animate'><a href='mailto:info@example.com'><span className='icon-contact_mail'></span></a></li>
+                  <li className='ftco-animate'><a href='https://tegebu.slack.com/'><span className='icon-slack'/></a></li>
+                  <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/'><span className='icon-facebook'/></a></li>
+                  <li className='ftco-animate'><a href='mailto:info@example.com'><span className='icon-contact_mail'/></a></li>
                 </ul>
               </div>
             </div>
@@ -34,7 +34,7 @@ export class Footer extends React.Component<Props, State> {
                 <h2 className='ftco-heading-2'>Recent Blog</h2>
                 <div className='block-21 mb-4 d-flex'>
                   <a className='blog-img mr-4' style={{
-                    backgroundImage: 'url(images/image_1.jpg);'
+                    backgroundImage: 'url(images/image_1.jpg)'
                   }}/>
                   <div className='text'>
                     <h3 className='heading'><a href='#'>Even the all-powerful Pointing has no control about</a></h3>
@@ -47,7 +47,7 @@ export class Footer extends React.Component<Props, State> {
                 </div>
                 <div className='block-21 mb-4 d-flex'>
                   <a className='blog-img mr-4' style={{
-                    backgroundImage: 'url(images/image_2.jpg);'
+                    backgroundImage: 'url(images/image_2.jpg)'
                   }}/>
                   <div className='text'>
                     <h3 className='heading'><a href='#'>Even the all-powerful Pointing has no control about</a></h3>

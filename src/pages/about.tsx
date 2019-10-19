@@ -121,7 +121,10 @@ export class About extends React.Component<Props, State> {
       <div>
         <Header/>
         <Nav/>
-        <Hero/>
+        <Hero
+          jumbo='About us'
+          q='About us'
+        />
         <TegeCounters
           counts={counts}
         />
