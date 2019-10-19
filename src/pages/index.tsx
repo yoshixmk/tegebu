@@ -199,6 +199,7 @@ const works: Array<Work> = [
 export class Index extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
+    console.log(this.props);
     return (
       <div>
         <Header/>
@@ -235,16 +236,17 @@ export class Index extends React.Component<Props, State> {
   }
 }
 
-// export const pageQuery = graphql`
-// query {
-//   allLettersYaml {
-//     edges {
-//       node {
-//         salutation
-//       }
-//     }
-//   }
-// }
-// `;
-//
+export const pageQuery = graphql`
+query {
+  allConfigYaml {
+    edges {
+      node {
+        salutation
+        oink
+      }
+    }
+  }
+}
+`;
+
 export default Index;

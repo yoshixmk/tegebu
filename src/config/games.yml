@@ -87,7 +87,7 @@ games:
     tegepersons: '3-4'
     tegeage: 9
     tegedescription: '全8名のうち、容疑者は3名。それぞれが異なる4枚をみて、犯人を当てる'
-    tegeimpressoin: '対象年齢が9歳からという、やや高めの設定。思考力が必須で、なぜ他人がその容疑者を犯人と思うのか、など自分から見えていない容疑者も疑うことが必要'
+    tegeimpression: '対象年齢が9歳からという、やや高めの設定。思考力が必須で、なぜ他人がその容疑者を犯人と思うのか、など自分から見えていない容疑者も疑うことが必要'
     tegeimage: 'yabu-no-naka.jpg'
   -
     tegename: 'ZOGEN'
@@ -636,7 +636,7 @@ games:
     tegepersons: '3-15'
     tegeage: 10
     tegedescription: '標準的な日本で遊ばれている人狼のセット。飛び抜けた役職はないが、それなりにお勧めできる'
-    tegedeimpression: 'めちゃくちゃ安い。利益あるのか不安なレベル'
+    tegeimpression: 'めちゃくちゃ安い。利益あるのか不安なレベル'
     tegeimage: 'jinrou-beginners.jpg'
   -
     tegename: '人狼ドッチ'
@@ -726,7 +726,7 @@ games:
     tegepersons: '3-10'
     tegeage: 10
     tegedescription: 'ワンナイト人狼。絵は西洋風。ワンナイト人狼にはない役職がある'
-    impression: '遊んだことはない。ワンナイト人狼に比べ役職が多く、ややこしい'
+    tegeimpression: '遊んだことはない。ワンナイト人狼に比べ役職が多く、ややこしい'
     tegeimage: 'one-night-ultimate-werewolf.jpg'
   -
     tegename: 'ONE NIGHT ULTIMATE WEREWOLF DAYBREAK'
@@ -776,7 +776,7 @@ games:
     tegepersons: '2'
     tegeage: 6
     tegedescription: 'ふたりでしか遊べない。自分の陣地にいるコマを相手の陣地に運べば勝ち。コマの上に乗ることができ、乗られているコマは動かすことができない'
-    tegeimression: 'コンポーネントのうち、土台が残念すぎる。現在は次バージョンが出ているので、そちらを買うとよい'
+    tegeimpression: 'コンポーネントのうち、土台が残念すぎる。現在は次バージョンが出ているので、そちらを買うとよい'
     tegeimage: 'nocca-x-nocca.jpg'
   -
     tegename: 'DOBBLE'
@@ -816,7 +816,7 @@ games:
     tegepersons: '2-5'
     tegeage: 7
     tegedescription: '道の書かれたタイルを、道が途切れないように繋げる。そして大きな土地、長い道に自分の手下(meeple)を設置する。手下は最後までその土地に駐在し、最終的に得点となるが、行動時にも使うものなので、駐在させると手数が減るというジレンマを持つ'
-    tegeimression: '遊んだことはない。ルール自体はそこまで複雑ではないが、大会が開かれるほど戦術に深みがある。つまり稚拙の差が出やすい'
+    tegeimpression: '遊んだことはない。ルール自体はそこまで複雑ではないが、大会が開かれるほど戦術に深みがある。つまり稚拙の差が出やすい'
     tegeimage: 'carcasonne.jpg'
   -
     tegename: 'The Red Dragon Inn'

@@ -17,3 +17,23 @@ powered by Gatsby
 # todo
 
 [] てげ分別で検索できる  
+
+```
+{
+  allConfigYaml {
+    edges {
+      node {
+        games {
+          tegename
+          tegegenre
+          tegeeasiness
+          tegetime
+          tegedescription
+          tegepersons
+          tegeimage
+        }
+      }
+    }
+  }
+}
+```
