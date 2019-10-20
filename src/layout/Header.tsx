@@ -113,48 +113,63 @@ export class Header extends React.Component<Props, State> {
           ]}
           script={[
             {
+              type: 'application/javascript',
               src: '/js/jquery.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery-migrate-3.0.1.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/popper.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/bootstrap.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.easing.1.3.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.waypoints.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.stellar.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/owl.carousel.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.magnific-popup.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/aos.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.animateNumber.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/bootstrap-datepicker.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/jquery.timepicker.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/scrollax.min.js'
             },
             {
+              type: 'application/javascript',
               src: '/js/main.js'
             }
           ]}
