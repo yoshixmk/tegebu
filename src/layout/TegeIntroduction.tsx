@@ -58,21 +58,21 @@ export class TegeIntroduction extends React.Component<Props, State> {
         }}/>
         <div className='text py-4 px-5 ftco-animate col-lg-8'>
           <h5><a href='#'>1. てげ名</a></h5>
-          <p>${tegename}</p>
+          <p>{tegename}</p>
           <h5><a href='#'>2. てげ分別</a></h5>
-          <p>${tegegenre}</p>
+          <p>{tegegenre}</p>
           <h5><a href='#'>3. てげ軽さ</a></h5>
-          <p>${tegeeasiness}</p>
+          <p>{tegeeasiness}</p>
           <h5><a href='#'>4. てげ時間</a></h5>
-          <p>${tegetime} 分</p>
+          <p>{tegetime} 分</p>
           <h5><a href='#'>5. てげ人数</a></h5>
-          <p>${tegepersons}</p>
+          <p>{tegepersons}</p>
           <h5><a href='#'>6. てげ適齢期</a></h5>
-          <p>${tegeage} 歳</p>
+          <p>{tegeage} 歳</p>
           <h5><a href='#'>7. てげ概要</a></h5>
-          <p>${tegedescription}</p>
+          <p>{tegedescription}</p>
           <h5><a href='#'>8. てげ感想</a></h5>
-          <p>${tegeimpression}</p>
+          <p>{tegeimpression}</p>
         </div>
       </div>
     );

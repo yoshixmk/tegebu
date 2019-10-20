@@ -14,11 +14,12 @@ export class Hero extends React.Component<Props, State> {
       jumbo,
       q
     } = this.props;
+
     return (
       <section className='hero-wrap js-fullheight'>
         <div className='overlay' style={{
           backgroundImage: 'url(images/bg_2.jpg)'
-        }} data-stellar-background-ratio='0.5'></div>
+        }} data-stellar-background-ratio='0.5'/>
         <div className='container'>
           <div className='row no-gutters slider-text js-fullheight align-items-center justify-content-end'>
             <div className='col-md-12 text-center ftco-animate'>
