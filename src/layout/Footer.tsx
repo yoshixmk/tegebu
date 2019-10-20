@@ -1,15 +1,19 @@
 import React from 'react';
+import {Slogans} from '../type/Slogans';
 
 type Props = {
+  slogans: Slogans;
 };
 type State = {
 };
 
-// TODO slogans should output into the yml file
-
 export class Footer extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
+    const {
+      slogans
+    } = this.props;
+
     return (
       <footer className='ftco-footer ftco-section img'>
         <div className='overlay'/>
@@ -18,10 +22,10 @@ export class Footer extends React.Component<Props, State> {
             <div className='col-lg-5 col-md-12 mb-10 mb-md-10'>
               <div className='ftco-footer-widget mb-4'>
                 <h2 className='ftco-heading-2'>About Us</h2>
-                <p>私たちは日本で活動するテーブルゲームが大好きな団体です。これを「てげぶ」と呼んでいます。参加は比較的安めで、主催者のボランティアによって、活動は全て支えられています。</p>
-                <p>We are a tabletop games lover group in Japan. We call 'Tegebu' for ourselves. It is reasonable to participate. All activities are supported by the volunteers of the organizers.</p>
-                <p>Nous sommes un groupe des amoureux de jeux de table au Japon. Nous appelons 'Tegebu' pour nous-mêmes. C'est bon marché pour participer. Toutes les acitivités sont soutenues par les bélévoles des organisateurs.</p>
-                <p>Nosotros somos un grupo de los amantes de juegos de mesa en Japón. Nosotros llamamos 'Tegebu' para nosotros mismos. Es barato participar. Todas las activitidades son apoyadas por los volintarios de los organizores.</p>
+                <p>{slogans.ja}</p>
+                <p>{slogans.en}</p>
+                <p>{slogans.fr}</p>
+                <p>{slogans.es}</p>
                 <ul className='ftco-footer-social list-unstyled float-md-left float-lft mt-5'>
                   <li className='ftco-animate'><a href='https://tegebu.slack.com/'><span className='icon-slack'/></a></li>
                   <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/'><span className='icon-facebook'/></a></li>

@@ -6,8 +6,20 @@ import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegeAd} from '../layout/TegeAd';
 import {JS} from '../layout/JS';
+import {Slogans} from '../type/Slogans';
+
+type Node = {
+  node: {
+    slogans: Slogans;
+  };
+};
 
 type Props = {
+  data: {
+    allConfigYaml: {
+      edges: Array<Node>;
+    };
+  };
 };
 type State = {
 };
@@ -15,6 +27,20 @@ type State = {
 export class Pricing extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
+    const {
+      data: {
+        allConfigYaml: {
+          edges: [
+            {
+              node: {
+                slogans
+              }
+            }
+          ]
+        }
+      }
+    } = this.props;
+
     return (
       <div>
         <Header/>
@@ -24,12 +50,31 @@ export class Pricing extends React.Component<Props, State> {
           q='あなたのための、とっておき価格。'
         />
         <TegeAd/>
-        <Footer/>
+        <Footer
+          slogans={slogans}
+        />
         <Loader/>
         <JS/>
       </div>
     );
   }
 }
+
+export const pageQuery = graphql`
+query {
+  allConfigYaml {
+    edges {
+      node {
+        slogans {
+          ja
+          en
+          fr
+          es
+        }
+      }
+    }
+  }
+}
+`;
 
 export default Pricing;

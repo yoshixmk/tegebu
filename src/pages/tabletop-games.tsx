@@ -7,10 +7,12 @@ import {Hero} from '../layout/Hero';
 import {Tege} from '../type/Tege';
 import {TegeIntroductions} from '../layout/TegeIntroductions';
 import {JS} from '../layout/JS';
+import {Slogans} from '../type/Slogans';
 
 type Node = {
   node: {
     teges: Array<Tege>;
+    slogans: Slogans;
   };
 };
 
@@ -33,7 +35,8 @@ export class TabletopGames extends React.Component<Props, State> {
           edges: [
             {
               node: {
-                teges
+                teges,
+                slogans
               }
             }
           ]
@@ -52,7 +55,9 @@ export class TabletopGames extends React.Component<Props, State> {
         <TegeIntroductions
           teges={teges}
         />
-        <Footer/>
+        <Footer
+          slogans={slogans}
+        />
         <Loader/>
         <JS/>
       </div>
@@ -75,6 +80,12 @@ query {
           tegedescription
           tegeimpression
           tegeimage
+        }
+        slogans {
+          ja
+          en
+          fr
+          es
         }
       }
     }

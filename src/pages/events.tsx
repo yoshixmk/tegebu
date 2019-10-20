@@ -7,10 +7,12 @@ import {Hero} from '../layout/Hero';
 import {TegePromises} from '../layout/TegePromises';
 import {Rule} from '../type/Rule';
 import {JS} from '../layout/JS';
+import {Slogans} from '../type/Slogans';
 
 type Node = {
   node: {
     rules: Array<Rule>;
+    slogans: Slogans;
   };
 };
 
@@ -33,7 +35,8 @@ export class Events extends React.Component<Props, State> {
           edges: [
             {
               node: {
-                rules
+                rules,
+                slogans
               }
             }
           ]
@@ -52,7 +55,9 @@ export class Events extends React.Component<Props, State> {
         <TegePromises
           rules={rules}
         />
-        <Footer/>
+        <Footer
+          slogans={slogans}
+        />
         <Loader/>
         <JS/>
       </div>
@@ -69,6 +74,12 @@ query {
           tegeicon
           tegephrase
           tegeactivity
+        }
+        slogans {
+          ja
+          en
+          fr
+          es
         }
       }
     }

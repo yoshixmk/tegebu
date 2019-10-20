@@ -12,12 +12,14 @@ import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
 import {JS} from '../layout/JS';
+import {Slogans} from '../type/Slogans';
 
 type Node = {
   node: {
     counts: Array<Count>;
     words: Array<Word>;
     works: Array<Work>;
+    slogans: Slogans;
   };
 };
 
@@ -42,7 +44,8 @@ export class About extends React.Component<Props, State> {
               node: {
                 counts,
                 words,
-                works
+                works,
+                slogans
               }
             }
           ]
@@ -68,7 +71,9 @@ export class About extends React.Component<Props, State> {
         <TegeGallery
           works={works}
         />
-        <Footer/>
+        <Footer
+          slogans={slogans}
+        />
         <Loader/>
         <JS/>
       </div>
@@ -94,6 +99,12 @@ query {
         }
         works {
           work
+        }
+        slogans {
+          ja
+          en
+          fr
+          es
         }
       }
     }
