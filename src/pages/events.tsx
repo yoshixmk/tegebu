@@ -1,7 +1,6 @@
 import React from 'react';
 import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
-import {JS} from '../layout/JS';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
@@ -54,7 +53,6 @@ export class Events extends React.Component<Props, State> {
         />
         <Footer/>
         <Loader/>
-        <JS/>
       </div>
     );
   }
