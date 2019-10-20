@@ -24,6 +24,7 @@ export class TegeSlogan extends React.Component<Props, State> {
           <p>{slogans.en}</p>
           <p>{slogans.fr}</p>
           <p>{slogans.es}</p>
+          <p>{slogans.zh}</p>
         </div>
       </div>
     );

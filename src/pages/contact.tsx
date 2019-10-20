@@ -73,6 +73,7 @@ query {
           en
           fr
           es
+          zh
         }
       }
     }

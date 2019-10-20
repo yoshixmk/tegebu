@@ -26,6 +26,7 @@ export class Footer extends React.Component<Props, State> {
                 <p>{slogans.en}</p>
                 <p>{slogans.fr}</p>
                 <p>{slogans.es}</p>
+                <p>{slogans.zh}</p>
                 <ul className='ftco-footer-social list-unstyled float-md-left float-lft mt-5'>
                   <li className='ftco-animate'><a href='https://tegebu.slack.com/'><span className='icon-slack'/></a></li>
                   <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/'><span className='icon-facebook'/></a></li>

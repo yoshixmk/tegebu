@@ -3,4 +3,5 @@ export type Slogans = {
   en: string;
   fr: string;
   es: string;
+  zh: string;
 };
