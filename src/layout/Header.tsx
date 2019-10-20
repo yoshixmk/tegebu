@@ -15,8 +15,7 @@ export class Header extends React.Component<Props, State> {
           title='Tegebu - Tabletop Games Club'
           meta={[
             {
-              name: 'char-set',
-              content: 'utf-8'
+              charSet: 'utf-8'
             },
             {
               name: 'viewport',
