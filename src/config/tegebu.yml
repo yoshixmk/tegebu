@@ -859,7 +859,7 @@ teges:
     tegepersons: '2-4'
     tegeage: 12
     tegedescription: 'デッキを構築しながら遊ぶてげ。ドミニオンに代表されるように中毒性が高い'
-    tegeimpression: '何戦もするうちにわかってくることが多いスルメてげだと思っている。つまり、さらっと遊ぶのに向いていない'
+    tegeimpression: 'ひとつにまとめているが、非常に多くの拡張が存在している。何戦もするうちにわかってくることが多いスルメてげだと思っている。つまり、さらっと遊ぶのに向いていない'
     tegeimage: 'heart-of-crown.jpg'
   -
     tegename: 'Carcasonne'
