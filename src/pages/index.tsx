@@ -123,6 +123,7 @@ query {
           tegename
           tegedescription
           tegeinspiration
+          tegeimage
         }
         members {
           subheading

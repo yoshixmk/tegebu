@@ -23,7 +23,8 @@ export class TegeThumbs extends React.Component<Props, State> {
               const {
                 tegename,
                 tegedescription,
-                tegeinspiration
+                tegeinspiration,
+                tegeimage
               } = highlight;
 
               return (
@@ -32,6 +33,7 @@ export class TegeThumbs extends React.Component<Props, State> {
                   tegename={tegename}
                   tegedescription={tegedescription}
                   tegeinspiration={tegeinspiration}
+                  tegeimage={tegeimage}
                 />
               );
             })}
