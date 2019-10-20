@@ -10,7 +10,7 @@ import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
-import {TegeIntroduction} from '../layout/TegeIntroduction';
+import {TegeBio} from '../layout/TegeBio';
 
 type Node = {
   node: {
@@ -60,7 +60,7 @@ export class About extends React.Component<Props, State> {
         <TegeCounters
           counts={counts}
         />
-        <TegeIntroduction/>
+        <TegeBio/>
         <TegeTestimonies
           words={words}
         />
