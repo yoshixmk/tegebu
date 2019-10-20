@@ -5,6 +5,7 @@ import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegeAd} from '../layout/TegeAd';
+import {JS} from '../layout/JS';
 
 type Props = {
 };
@@ -25,6 +26,7 @@ export class Pricing extends React.Component<Props, State> {
         <TegeAd/>
         <Footer/>
         <Loader/>
+        <JS/>
       </div>
     );
   }

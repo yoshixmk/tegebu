@@ -5,6 +5,7 @@ import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegeContact} from '../layout/TegeContact';
+import {JS} from '../layout/JS';
 
 type Props = {
 };
@@ -25,6 +26,7 @@ export class Contact extends React.Component<Props, State> {
         <TegeContact/>
         <Footer/>
         <Loader/>
+        <JS/>
       </div>
     );
   }

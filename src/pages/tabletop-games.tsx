@@ -6,6 +6,7 @@ import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {Tege} from '../type/Tege';
 import {TegeIntroductions} from '../layout/TegeIntroductions';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -53,6 +54,7 @@ export class TabletopGames extends React.Component<Props, State> {
         />
         <Footer/>
         <Loader/>
+        <JS/>
       </div>
     );
   }

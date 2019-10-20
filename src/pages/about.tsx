@@ -11,6 +11,7 @@ import {Hero} from '../layout/Hero';
 import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -69,6 +70,7 @@ export class About extends React.Component<Props, State> {
         />
         <Footer/>
         <Loader/>
+        <JS/>
       </div>
     );
   }

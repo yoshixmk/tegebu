@@ -20,6 +20,7 @@ import {TegeGallery} from '../layout/TegeGallery';
 import {Work} from '../type/Work';
 import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -96,6 +97,7 @@ export class Index extends React.Component<Props, State> {
         />
         <Footer/>
         <Loader/>
+        <JS/>
       </div>
     );
   }
