@@ -20,7 +20,7 @@ export class IndexHero extends React.Component<Props, State> {
                 <div className='icon d-flex justify-content-center align-items-center'>
                   <span className='icon-play'/>
                 </div>
-                <span>Tabletop Games Club</span> <br/>Watch Our Video
+                <span>Tabletop Games Club</span> <br/>Watch Our Videos
               </a>
             </h3>
             <div className='col-md-12 text-center'>

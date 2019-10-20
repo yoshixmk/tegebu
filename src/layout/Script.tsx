@@ -15,7 +15,7 @@ export class Script extends React.Component<Props, State> {
       src
     } = this.props;
 
-    const script = document.createElement("script");
+    const script = document.createElement('script');
     script.src = src;
     script.async = true;
     script.defer = true;

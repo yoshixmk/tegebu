@@ -16,8 +16,8 @@ export class TegeThumbs extends React.Component<Props, State> {
     } = this.props;
 
     return (
-      <section className="ftco-section ftco-no-pb ftco-no-pt">
-        <div className="container">
+      <section className='ftco-section ftco-no-pb ftco-no-pt'>
+        <div className='container'>
           <div className='row'>
             {highlights.map<React.ReactElement>((highlight: Highlight): React.ReactElement =>{
               const {
