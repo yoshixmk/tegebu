@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/tegebu',
   siteMetadata: {
     title: 'Tegebu',
     siteUrl: 'https://www.tegebu.com/',
