@@ -42,9 +42,6 @@ export class TegeMember extends React.Component<Props, State> {
         return (
           <div className='col-lg-6 d-flex'>
             <div className='coach d-sm-flex align-items-stretch'>
-              <div className='img order-xl-last' style={{
-                backgroundImage: `url(${memberImage})`
-              }}/>
               <div className='text py-4 px-5 ftco-animate'>
                 <span className='subheading'>{subheading}</span>
                 <h3><a href='#'>{memberName}</a></h3>
@@ -55,6 +52,9 @@ export class TegeMember extends React.Component<Props, State> {
                   <li className='ftco-animate'><a href='mailto:info@tegebu.com' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-contact_mail'/></a></li>
                 </ul>
               </div>
+              <div className='img order-xl-last' style={{
+                backgroundImage: `url(${memberImage})`
+              }}/>
             </div>
           </div>
         );
