@@ -8,7 +8,11 @@ type State = {
 
 export class JS extends React.Component<Props, State> {
 
-  public render(): React.ReactElement {
+  public render(): React.ReactElement | null {
+    if (process.env.NODE_ENV === 'production') {
+      return null;
+    }
+
     return (
       <div>
         <Script

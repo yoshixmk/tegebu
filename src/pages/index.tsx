@@ -20,9 +20,9 @@ import {TegeGallery} from '../layout/TegeGallery';
 import {Work} from '../type/Work';
 import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
-import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
