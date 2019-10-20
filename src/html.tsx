@@ -40,21 +40,21 @@ export default class HTML extends React.Component<Props, State> {
             dangerouslySetInnerHTML={{ __html: body }}
           />
           {postBodyComponents}
-          <script src='js/jquery.min.js' async defer/>
-          <script src='js/jquery-migrate-3.0.1.min.js' async defer/>
-          <script src='js/popper.min.js' async defer/>
-          <script src='js/bootstrap.min.js' async defer/>
-          <script src='js/jquery.easing.1.3.js' async defer/>
-          <script src='js/jquery.waypoints.min.js' async defer/>
-          <script src='js/jquery.stellar.min.js' async defer/>
-          <script src='js/owl.carousel.min.js' async defer/>
-          <script src='js/jquery.magnific-popup.min.js' async defer/>
-          <script src='js/aos.js' async defer/>
-          <script src='js/jquery.animateNumber.min.js' async defer/>
-          <script src='js/bootstrap-datepicker.js' async defer/>
-          <script src='js/jquery.timepicker.min.js' async defer/>
-          <script src='js/scrollax.min.js' async defer/>
-          <script src='js/main.js' async defer/>
+          <script src='js/jquery.min.js'/>
+          <script src='js/jquery-migrate-3.0.1.min.js'/>
+          <script src='js/popper.min.js'/>
+          <script src='js/bootstrap.min.js'/>
+          <script src='js/jquery.easing.1.3.js'/>
+          <script src='js/jquery.waypoints.min.js'/>
+          <script src='js/jquery.stellar.min.js'/>
+          <script src='js/owl.carousel.min.js'/>
+          <script src='js/jquery.magnific-popup.min.js'/>
+          <script src='js/aos.js'/>
+          <script src='js/jquery.animateNumber.min.js'/>
+          <script src='js/bootstrap-datepicker.js'/>
+          <script src='js/jquery.timepicker.min.js'/>
+          <script src='js/scrollax.min.js'/>
+          <script src='js/main.js'/>
         </body>
       </html>
     );
