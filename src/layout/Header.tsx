@@ -36,76 +36,76 @@ export class Header extends React.Component<Props, State> {
               rel: 'stylesheet'
             },
             {
-              href: '/css/open-iconic-bootstrap.min.css',
+              href: 'css/open-iconic-bootstrap.min.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/animate.css',
+              href: 'css/animate.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/owl.carousel.min.css',
+              href: 'css/owl.carousel.min.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/owl.theme.default.min.css',
+              href: 'css/owl.theme.default.min.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/magnific-popup.css',
+              href: 'css/magnific-popup.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/aos.css',
+              href: 'css/aos.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/ionicons.min.css',
+              href: 'css/ionicons.min.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/bootstrap-datepicker.css',
+              href: 'css/bootstrap-datepicker.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/jquery.timepicker.css',
+              href: 'css/jquery.timepicker.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/flaticon.css',
+              href: 'css/flaticon.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/icomoon.css',
+              href: 'css/icomoon.css',
               rel: 'stylesheet'
             },
             {
-              href: '/css/style.css',
+              href: 'css/style.css',
               rel: 'stylesheet'
             },
             {
-              href: '/favicons/apple-touch-icon.png',
+              href: 'favicons/apple-touch-icon.png',
               rel: 'apple-touch-icon',
               sizes: '180x180'
             },
             {
-              href: '/favicons/favicon-32x32.png',
+              href: 'favicons/favicon-32x32.png',
               rel: 'icon',
               sizes: '32x32',
               type: 'image/png'
             },
             {
-              href: '/favicons/favicon-16x16.png',
+              href: 'favicons/favicon-16x16.png',
               rel: 'icon',
               sizes: '16x16',
               type: 'image/png'
             },
             {
-              href: '/favicons/site.webmanifest',
+              href: 'favicons/site.webmanifest',
               rel: 'manifest'
             },
             {
-              href: '/favicons/safari-pinned-tab.svg',
+              href: 'favicons/safari-pinned-tab.svg',
               rel: 'mask-icon',
               color: '#5bbad5'
             }
