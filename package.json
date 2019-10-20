@@ -15,7 +15,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "start": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && cp CNAME public/CNAME && gh-pages -d public && gatsby clean"
+    "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean"
   },
   "dependencies": {
     "gatsby": "2.16.5",
