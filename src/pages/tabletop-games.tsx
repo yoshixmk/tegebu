@@ -24,7 +24,7 @@ type Props = {
 type State = {
 };
 
-export class Events extends React.Component<Props, State> {
+export class TabletopGames extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
     const {
@@ -82,4 +82,4 @@ query {
 }
 `;
 
-export default Events;
+export default TabletopGames;

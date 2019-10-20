@@ -5,14 +5,14 @@ import {JS} from '../layout/JS';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
-import {TegeAd} from '../layout/TegeAd';
+import {TegeContact} from '../layout/TegeContact';
 
 type Props = {
 };
 type State = {
 };
 
-export class Pricing extends React.Component<Props, State> {
+export class Contact extends React.Component<Props, State> {
 
   public render(): React.ReactElement {
     return (
@@ -20,10 +20,10 @@ export class Pricing extends React.Component<Props, State> {
         <Header/>
         <Nav/>
         <Hero
-          jumbo='Pricing'
-          q='あなたのための、とっておき価格。'
+          jumbo='Contact us'
+          q='Contact us'
         />
-        <TegeAd/>
+        <TegeContact/>
         <Footer/>
         <Loader/>
         <JS/>
@@ -32,4 +32,4 @@ export class Pricing extends React.Component<Props, State> {
   }
 }
 
-export default Pricing;
+export default Contact;
