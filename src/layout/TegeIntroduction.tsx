@@ -45,7 +45,7 @@ export class TegeIntroduction extends React.Component<Props, State> {
             <p>{tegeimpression}</p>
           </div>
           <div className='img col-lg-4' style={{
-            backgroundImage: `url(images/teges/${tegeimage})`
+            backgroundImage: `url(/images/teges/${tegeimage})`
           }}/>
         </div>
       );
@@ -54,7 +54,7 @@ export class TegeIntroduction extends React.Component<Props, State> {
     return (
       <div className='coach d-sm-flex align-items-stretch'>
         <div className='img col-lg-4' style={{
-          backgroundImage: `url(images/teges/${tegeimage})`
+          backgroundImage: `url(/images/teges/${tegeimage})`
         }}/>
         <div className='text py-4 px-5 ftco-animate col-lg-8'>
           <h5><a href='#'>1. てげ名</a></h5>

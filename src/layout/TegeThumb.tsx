@@ -18,7 +18,7 @@ export class TegeThumb extends React.Component<Props, State> {
     return (
       <div className='col-md-4'>
         <div className='pricing-wrap ftco-animate img' style={{
-          backgroundImage: `url(images/teges/${tegeimage})`
+          backgroundImage: `url(/images/teges/${tegeimage})`
         }}>
           <div className='title p-4'>
             <h3 style={{

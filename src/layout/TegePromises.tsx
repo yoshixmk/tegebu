@@ -20,7 +20,7 @@ export class TegePromises extends React.Component<Props, State> {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6 img img-2 order-md-last' style={{
-              backgroundImage: 'url(images/bg_2-1.jpg)'
+              backgroundImage: 'url(/images/bg_2-1.jpg)'
             }}/>
             <div className='col-md-6 py-5'>
               {rules.map<React.ReactElement>((rule): React.ReactElement => {

@@ -17,35 +17,35 @@ counts:
     about: 'Tabletop Games'
 events:
   -
-    thumbnail: 'images/image_1.jpg'
+    thumbnail: '/images/image_1.jpg'
     day: 28
     month: 9
     year: 2019
     eventName: 'Crossfit Harder Workout 1'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   -
-    thumbnail: 'images/image_1.jpg'
+    thumbnail: '/images/image_1.jpg'
     day: 28
     month: 9
     year: 2019
     eventName: 'Crossfit Harder Workout 2'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   -
-    thumbnail: 'images/image_1.jpg'
+    thumbnail: '/images/image_1.jpg'
     day: 28
     month: 9
     year: 2019
     eventName: 'Crossfit Harder Workout 3'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   -
-    thumbnail: 'images/image_2.jpg'
+    thumbnail: '/images/image_2.jpg'
     day: 1
     month: 10
     year: 2019
     eventName: 'Crossfit Harder Workout 4'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
   -
-    thumbnail: 'images/image_3.jpg'
+    thumbnail: '/images/image_3.jpg'
     day: 20
     month: 7
     year: 2019
@@ -951,25 +951,25 @@ members:
   -
     subheading: 'Head Coach'
     memberName: 'JINRO'
-    memberImage: 'images/trainer-1.jpg'
+    memberImage: '/images/trainer-1.jpg'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
     position: 'left'
   -
     subheading: 'Lead Organizer'
     memberName: 'KARIUDO'
-    memberImage: 'images/trainer-2.jpg'
+    memberImage: '/images/trainer-2.jpg'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
     position: 'left'
   -
     subheading: 'Lead Organizer'
     memberName: 'YOGENSHA'
-    memberImage: 'images/trainer-3.jpg'
+    memberImage: '/images/trainer-3.jpg'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
     position: 'right'
   -
     subheading: 'Organizer'
     memberName: 'URANAISHI'
-    memberImage: 'images/trainer-4.jpg'
+    memberImage: '/images/trainer-4.jpg'
     description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a'
     position: 'right'
 rules:
@@ -995,24 +995,24 @@ rules:
     tegeactivity: '一緒にテーブルゲームしてくれる人、興味がある人、募集！'
 words:
   -
-    headshot: 'images/person_1.jpg'
+    headshot: '/images/person_1.jpg'
     word: '賽は投げられた'
     by: 'ガイウス・ユリウス・カエサル'
     position: '特別顧問'
   -
-    headshot: 'images/person_2.jpg'
+    headshot: '/images/person_2.jpg'
     word: '神はサイコロを降らない'
     by: 'アルベルト・アインシュタイン'
     position: '偉大なる先輩'
 works:
   -
-    work: 'images/gallery-1.jpg'
+    work: '/images/gallery-1.jpg'
   -
-    work: 'images/gallery-2.jpg'
+    work: '/images/gallery-2.jpg'
   -
-    work: 'images/gallery-3.jpg'
+    work: '/images/gallery-3.jpg'
   -
-    work: 'images/gallery-4.jpg'
+    work: '/images/gallery-4.jpg'
 slogans:
   ja: '私たちは日本で活動するテーブルゲームが大好きな団体です。自身を''てげぶ''と呼んでいます。参加は比較的安めで、主催者のボランティアによって、活動は全て支えられています。'
   en: 'We are a tabletop games lover group in Japan. We call ''Tegebu'' for ourselves. It is reasonable to participate. All activities are supported by the volunteers of the organizers.'

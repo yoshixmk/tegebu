@@ -17,7 +17,7 @@ export class TegeTestimonies extends React.Component<Props, State> {
 
     return (
       <section className='ftco-section testimony-section' style={{
-      backgroundImage: 'url(images/bg_4.jpg)'
+      backgroundImage: 'url(/images/bg_4.jpg)'
       }} data-stellar-background-ratio='0.5'>
         <div className='overlay'/>
         <div className='container'>

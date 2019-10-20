@@ -17,7 +17,7 @@ export class TegeCounters extends React.Component<Props, State> {
 
     return (
       <section className='ftco-counter ftco-bg-dark img' id='section-counter' style={{
-        backgroundImage: 'url(images/bg_2.jpg)'
+        backgroundImage: 'url(/images/bg_2.jpg)'
       }} data-stellar-background-ratio='0.5'>
         <div className='overlay'/>
         <div className='container'>

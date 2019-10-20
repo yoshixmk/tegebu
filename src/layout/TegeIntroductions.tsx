@@ -31,7 +31,7 @@ export class TegeIntroductions extends React.Component<Props, State> {
             <div className='col-lg-12 d-flex'>
               <div className='coach d-sm-flex align-items-stretch'>
                 <div className='img col-lg-4' style={{
-                  backgroundImage: 'url(images/trainer-1.jpg)'
+                  backgroundImage: 'url(/images/trainer-1.jpg)'
                 }}/>
                 <div className='text py-4 px-5 ftco-animate col-lg-8'>
                   <h5><a href='#'>1. てげ名</a></h5>

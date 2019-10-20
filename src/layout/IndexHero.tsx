@@ -11,7 +11,7 @@ export class IndexHero extends React.Component<Props, State> {
     return (
       <section className='hero-wrap js-fullheight'>
         <div className='overlay' style={{
-          backgroundImage: 'url(images/bg_2.jpg)'
+          backgroundImage: 'url(/images/bg_2.jpg)'
         }} data-stellar-background-ratio='0.5'/>
         <div className='container'>
           <div className='row no-gutters slider-text js-fullheight align-items-center justify-content-end'>
@@ -25,7 +25,7 @@ export class IndexHero extends React.Component<Props, State> {
             </h3>
             <div className='col-md-12 text-center ftco-animate'>
               <h1 className='mt-5' style={{
-                backgroundImage: 'url(images/bg_1.jpg)'
+                backgroundImage: 'url(/images/bg_1.jpg)'
               }} data-stellar-background-ratio='0.5'>Tege<br/>bu</h1>
               <h2>Tabletop Games Club</h2>
             </div>
