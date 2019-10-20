@@ -2,6 +2,8 @@
 
 powered by Gatsby
 
+original site url is `https://yoshixmk.github.io/tegebu/`
+
 # environment
 
 1. `yarn install`
