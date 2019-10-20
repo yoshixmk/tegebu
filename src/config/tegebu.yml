@@ -249,7 +249,7 @@ teges:
     tegetime: 15
     tegepersons: '4-8'
     tegeage: 9
-    tegedescription: 'マスターとインサイダーだけが答えを知っている。マスターに対してマスター以外の全員で質問し、答えが何かを当てる。インサイダーは答えを知ってはいるが、自分がインサイダーであることがバレないように、マスター以外の全員が答えを当てられるように誘導するのが役目、最終的にインサイダーが誰か当てれば勝ち'
+    tegedescription: 'マスターとインサイダーだけが答えを知っている。マスターに対してマスター以外の全員で質問し、答えが何かを当てる。インサイダーは答えを知ってはいるが、自分がインサイダーであることがバレないように、マスター以外の全員が答えを当てられるように誘導するのが役目。最終的にインサイダーが誰か当てれば勝ち'
     tegeimpression: 'けっこう盛り上がる。1てげが短く、何回もでき、またマスターは立候補してもてげの性質上問題がない'
     tegeimage: 'insider.jpg'
   -
@@ -289,7 +289,7 @@ teges:
     tegetime: 20
     tegepersons: '3-5'
     tegeage: 7
-    tegedescription: 'このてげではひとりの監視役を除いてイカサマが認められている。それどこかイカサマをしないと捨てることができないカードがある、完全にイカサマ推奨である。監視役はイカサマを見逃さないようにカードゲームを行う。手持ちのカードがなくなれば勝ち'
+    tegedescription: 'このてげではひとりの監視役を除いてイカサマが認められている。それどこかイカサマをしないと捨てることができないカードさえある、完全にイカサマ推奨である。監視役はイカサマを見逃さないようにカードゲームを行う。手持ちのカードがなくなれば勝ち'
     tegeimpression: 'カードの隠し方、捨て方に容赦のない人がいるとカードが破損し遊べなくなるという、購入者泣かせのジンクスがある'
     tegeimage: 'mogel-motte.jpg'
   -
@@ -319,8 +319,8 @@ teges:
     tegetime: 60
     tegepersons: '5-17'
     tegeage: 12
-    tegedescription: '学級裁判でたった一人の紛れ混んでいるクロをお仕置きできれば勝ち。という人狼をダンガンロンパに当て込めたてげ。役職に加えキャラクターの能力、アイテムがあり、人狼系のなかで特に重い'
-    tegeimpression: '対象年齢が12歳からといい、前提として人狼の知識がないと遊べないといい、かなり遊ぶために準備がいる。そのため、遊んだことはない。'
+    tegedescription: '学級裁判でたったひとりの紛れ混んでいるクロをお仕置きできれば勝ち。という人狼をダンガンロンパに当て込めたてげ。役職に加えキャラクターの能力、アイテムがあり、人狼系のなかで特に重い'
+    tegeimpression: '対象年齢が12歳からといい、前提として人狼の知識がないと遊べないといい、かなり遊ぶために準備がいる。そのため、遊んだことはない'
     tegeimage: 'chou-koukou-kyuu-no-jinrou.jpg'
   -
     tegename: '超高校級の人狼 MANIAX'
@@ -390,7 +390,7 @@ teges:
     tegepersons: '2-8'
     tegeage: 8
     tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる'
-    tegeimpression: '単純だがそれなりに盛り上がる。箱がでかすぎる。無印、2.0と比べて明らかに難しい'
+    tegeimpression: '単純だがそれなりに盛り上がる。箱がでかすぎる。そのため、持ってくることはまれ。無印、2.0と比べて明らかに難しい'
     tegeimage: 'geistesblitz-5-vor-12.jpg'
   -
     tegename: 'Love Letter'
@@ -399,8 +399,8 @@ teges:
     tegetime: 10
     tegepersons: '2-4'
     tegeage: 10
-    tegedescription: '自分が持っているカードがなにかバレないように、より強いカードを持つ。強いカードは戦闘があるとき相手を脱落させられるが、何を持っているのかがバレるとたちまち負けてしまう'
-    tegeimpression: '全部で16枚しかないカードを使って遊ぶ、珍しいてげ'
+    tegedescription: '姫への恋文を運搬する人を選ぶゲーム。カードに書かれている人物がその役を務める。自分が持っている運搬人が誰かバレないように、より強い運搬人を選ぶ。強い運搬人は戦闘があるとき相手を脱落させられる。ただし、相手の運搬人が誰か当てると脱落させられる運搬人がいる。そのため、誰に恋文の運搬を依頼しているのかがバレると集中攻撃を受けることになる'
+    tegeimpression: '全部で16枚しかないカード(運搬人)を全員で使って遊ぶ、珍しいてげ'
     tegeimage: 'love-letter.jpg'
   -
     tegename: 'Lovecraft Letter'
@@ -409,8 +409,8 @@ teges:
     tegetime: 15
     tegepersons: '2-6'
     tegeage: 10
-    tegedescription: 'Love Letterの亜種。基本はLove Letterと同じだが、発狂というシステムがあり、発狂するとカードがいい意味でも悪い意味でも強力になる'
-    tegeimpression: 'クトゥルフを知っていると楽しいかもしれないが、知らなくても楽しむことはできる。Love Letterと比べて大味の戦いになる'
+    tegedescription: 'Love Letterの亜種。基本はLove Letterと同じだが、狂人化というシステムがあり、狂人するとカードが強力になるが、それが自分に返ってくることもある。つまり脱落の恐れが増える(発狂と呼ぶ)'
+    tegeimpression: 'クトゥルフを知っていると楽しいかもしれないが、知らなくても楽しむことはできる。普通状態、狂人状態で勝利条件が変わるので、どちらでもいいから勝てばいい、というわけではない'
     tegeimage: 'lovecraft-letter.jpg'
   -
     tegename: 'R-Rivals'
@@ -418,8 +418,8 @@ teges:
     tegeeasiness: '軽い'
     tegetime: 10
     tegepersons: '2'
-    tegedescription: '各々が7枚、独特な強さ、能力を持つカードを持ち、三番勝負をする。逆転要素を持つカードゲーム'
-    tegeimpression: '2人でしか遊べないのが難点すぎる。遊んだことはない'
+    tegedescription: '各々が8枚、独特な強さ、能力を持つカードを持ち、四番勝負をする。逆転要素を持つカードゲーム'
+    tegeimpression: '賢い人同士の戦いを見ると非常に盛り上がる。遊んだことはない'
     tegeimage: 'r-rivals.jpg'
   -
     tegename: 'ワンナイト人狼'
@@ -429,7 +429,7 @@ teges:
     tegepersons: '3-7'
     tegeage: 10
     tegedescription: '人狼をたった一晩だけやる。という概念のてげ。人狼は処刑されなければ勝ち。時間は短いが、ルールはやや複雑'
-    tegeimpression: '人狼の前提知識があるとよいが、概念が違うため、面食らうこともあるかもしれない'
+    tegeimpression: '人狼の前提知識があるとよいが、概念が違うため、面食らうこともあるかもしれない。例えば人狼は人を食らう存在だが、このてげでは処刑されなければ勝ちという、逃げの姿勢を求められる'
     tegeimage: 'one-night-jinrou.jpg'
   -
     tegename: 'ワンナイト人狼 MONSTER ver'
@@ -438,7 +438,7 @@ teges:
     tegetime: 5
     tegepersons: '3-7'
     tegeage: 10
-    tegedescription: 'ワンナイト人狼の拡張版、これだけでは遊べない。MONSTER verというだけあり、人狼陣営を含む人外の役職が多い'
+    tegedescription: 'ワンナイト人狼の拡張版、これだけでも遊べる。MONSTER verというだけあり、人狼陣営を含む人外の役職が多い'
     tegeimpression: '吊人(てるてる)は場を乱す存在としてかなり面白い'
     tegeimage: 'one-night-jinrou-monster-ver.jpg'
   -
@@ -458,7 +458,7 @@ teges:
     tegetime: 5
     tegepersons: '3-7'
     tegeage: 10
-    tegedescription: 'ワンナイト人狼とは互換性がない独立したてげ。非人間の役職は狂気カードを使うことができるが、内容が得てしてひどく、自己罰てげとなる'
+    tegedescription: 'ワンナイト人狼とは互換性がない独立したてげ。非人間の役職は狂気カードを使うことができるが、内容がえてしてひどいものとなっている'
     tegeimpression: '遊んだことはない。互換性がないのは裏面の模様が違うから'
     tegeimage: 'one-night-jinrou-kyouki-ver.jpg'
   -
@@ -629,7 +629,7 @@ teges:
     tegepersons: '2-4'
     tegeage: 10
     tegedescription: '人物を選び、装備を選び、ダンジョン攻略という名のモンスターたちとの戦い'
-    tegeimpression: 'ややビデオてげよりの設定のため、ライトユーザーがどう思うかが気になる'
+    tegeimpression: 'ややビデオゲームよりの設定のため、ライトユーザーがどう思うかが気になる'
     tegeimage: 'dungeon-of-mandom-viii.jpg'
   -
     tegename: '新成敗'
@@ -659,7 +659,7 @@ teges:
     tegepersons: '2-10'
     tegeage: 8
     tegedescription: '2つの遊び方があるが、共通していえるのは、数字の書かれたカードを1枚所持し、その数値を直接口にせずに表現しあうというもの'
-    tegeimpression: '遊んだことがない。'
+    tegeimpression: '遊んだことがない'
     tegeimage: 'ito.jpg'
   -
     tegename: 'テストプレイなんてしてないよ'
@@ -709,7 +709,7 @@ teges:
     tegepersons: '5-98'
     tegeage: 13
     tegedescription: '役職が非常に多い。ルール自体は一般的な人狼と同じ'
-    tegeimpression: 'この人狼を使わないと遊べないような人数で人狼したら、日が暮れると思う。実際に遊んだことはない。'
+    tegeimpression: 'この人狼を使わないと遊べないような人数で人狼したら、日が暮れると思う。実際に遊んだことはない'
     tegeimage: 'kyuukyoku-no-jinrou-kyuukyoku-ban.jpg'
   -
     tegename: 'ULTIMATE WEREWOLF DELUXE EDITION'
@@ -739,7 +739,7 @@ teges:
     tegepersons: '3-12'
     tegeage: 8
     tegedescription: 'ある村に住まう人狼を追い出すために、異端審問官として派遣されたところから話が始まる。ところが審問官のなかにも人狼が紛れ込んでおり、人狼の審問官は村に住まう人狼のために審問の邪魔を行う。脱落者が出ず、視界も不要のタイプのてげ'
-    tegeimpression: 'かなり厳しい(遊びづらい)。うまく時間調整しないと、一瞬で人狼が誰かバレてしまう'
+    tegeimpression: 'かなり厳しい(遊びづらい)。各人の持ち時間があるのだが、うまく時間調整しないと、一瞬で人狼が誰かバレてしまう'
     tegeimage: 'kyuukyoku-no-jinrou-itan-shinmon.jpg'
   -
     tegename: '人狼 DX'
@@ -768,7 +768,7 @@ teges:
     tegetime: 60
     tegepersons: '8-80'
     tegeage: 12
-    tegedescription: '一般的な人狼に比べ、難しい役職が多い。また、人狼以外の人狼陣営の増殖によって、総合的に人狼が弱い役職になっている'
+    tegedescription: '一般的な人狼に比べ、難しい役職が多い。また、人狼以外の人狼陣営の増殖によって、総合的に人狼自体が弱い役職になっている'
     tegeimpression: '無理して遊ぶ必要はない'
     tegeimage: 'gekka-no-jinrou.jpg'
   -
@@ -790,7 +790,7 @@ teges:
     tegeage: 8
     tegedescription: '単体でも遊べる'
     tegeimpression: '遊んだことはない'
-    tegeimage: 'one-night-ultimate-werewokf-daybreak.jpg)'
+    tegeimage: 'one-night-ultimate-werewolf-daybreak.jpg'
   -
     tegename: 'ONE NIGHT ULTIMATE VAMPIRE'
     tegegenre: '正体隠匿'
@@ -818,7 +818,7 @@ teges:
     tegetime: 30
     tegepersons: '8-18'
     tegeage: 10
-    tegedescription: 'Miller''s Hollowはカードに役職名は書かれていないので、慣れる必要がある。これは、この拡張カードでも同じ'
+    tegedescription: 'Miller''s Hollowはカードには絵しか描かれておらず、役職名は書かれていないので、慣れる必要がある。これは、この拡張カードでも同じ'
     tegeimpression: 'ただでさえ重いThe Werewolves of Miller''s Hollowにさらに難解な役職を加える拡張'
     tegeimage: 'characters-for-the-werewolves-of-millers-hillow.jpg'
   -
@@ -859,7 +859,7 @@ teges:
     tegepersons: '2-4'
     tegeage: 12
     tegedescription: 'デッキを構築しながら遊ぶてげ。ドミニオンに代表されるように中毒性が高い'
-    tegeimpression: '何戦もするうちにわかってくることが多く、さらっと遊ぶのに向いていない'
+    tegeimpression: '何戦もするうちにわかってくることが多いスルメてげだと思っている。つまり、さらっと遊ぶのに向いていない'
     tegeimage: 'heart-of-crown.jpg'
   -
     tegename: 'Carcasonne'
@@ -868,7 +868,7 @@ teges:
     tegetime: 35
     tegepersons: '2-5'
     tegeage: 7
-    tegedescription: '道の書かれたタイルを、道が途切れないように繋げる。そして大きな土地、長い道に自分の手下(meeple)を設置する。手下は最後までその土地に駐在し、最終的に得点となるが、行動時にも使うものなので、駐在させると手数が減るというジレンマを持つ'
+    tegedescription: '道の書かれたタイルを、道が途切れないように繋げる。そして大きな土地、長い道に自分の手下(meeple)を設置する。手下は最後までその土地に駐在し、最終的に得点となるが、行動時にも手駒として使うものなので、駐在させると手数が減るというジレンマを持つ'
     tegeimpression: '遊んだことはない。ルール自体はそこまで複雑ではないが、大会が開かれるほど戦術に深みがある。つまり稚拙の差が出やすい'
     tegeimage: 'carcasonne.jpg'
   -
@@ -879,7 +879,7 @@ teges:
     tegepersons: '2-4'
     tegeage: 13
     tegedescription: '対戦相手を物理で倒すか酩酊させて倒すてげ。最後まで残れば勝ち'
-    tegeimpression: '対象年齢が高いのは酒や暴力に関する描写だと思われる。続編が出るほど人気があるらしい。物理を与えても酩酊さても同程度の被害を与えられるため、差がイマイチわからない'
+    tegeimpression: '対象年齢が高いのは酒や暴力に関する描写だと思われる。続編が出るほど人気があるらしい。物理を与えても酩酊さても同程度の被害を与えられる。そのため、どちらから攻める方がいいとか、どちらで攻められると弱いとか、その差がイマイチわからない'
     tegeimage: 'the-red-dragon-inn.jpg'
   -
     tegename: 'PANDEMIC'
@@ -942,7 +942,7 @@ highlights:
     tegeinspiration: '相手を出し抜いたり、宝石で騙したりする戦略ゲーム'
   -
     tegename: 'Marrakech'
-    tegedescription: 'Marrakechとはモロッコの都市の名前で、ついにボードゲームになりました。'
+    tegedescription: 'Marrakechとはモロッコの都市の名前で、ついにボードゲームになりました'
     tegeinspiration: '敵の絨毯を邪魔しつつ、自分の絨毯を広げよう！'
 members:
   -
@@ -993,12 +993,12 @@ rules:
 words:
   -
     headshot: 'images/person_1.jpg'
-    word: '賽は投げられた。'
+    word: '賽は投げられた'
     by: 'ガイウス・ユリウス・カエサル'
     position: '特別顧問'
   -
     headshot: 'images/person_2.jpg'
-    word: '神はサイコロを降らない。'
+    word: '神はサイコロを降らない'
     by: 'アルベルト・アインシュタイン'
     position: '偉大なる先輩'
 works:
