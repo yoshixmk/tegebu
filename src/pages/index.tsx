@@ -22,6 +22,7 @@ import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -73,7 +74,9 @@ export class Index extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.INDEX}
+        />
         <IndexHero/>
         <TegeSlogan
           slogans={slogans}

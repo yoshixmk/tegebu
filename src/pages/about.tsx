@@ -13,6 +13,7 @@ import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -56,7 +57,9 @@ export class About extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.ABOUT}
+        />
         <Hero
           jumbo='About us'
           q='About us'

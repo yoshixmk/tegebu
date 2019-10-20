@@ -8,6 +8,7 @@ import {TegePromises} from '../layout/TegePromises';
 import {Rule} from '../type/Rule';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -47,7 +48,9 @@ export class Events extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.EVENTS}
+        />
         <Hero
           jumbo='Events'
           q='Events'

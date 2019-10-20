@@ -7,6 +7,7 @@ import {Hero} from '../layout/Hero';
 import {TegeAd} from '../layout/TegeAd';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -44,7 +45,9 @@ export class Pricing extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.PRICING}
+        />
         <Hero
           jumbo='Pricing'
           q='あなたのための、とっておき価格。'

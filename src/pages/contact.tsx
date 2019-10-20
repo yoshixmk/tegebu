@@ -7,6 +7,7 @@ import {Hero} from '../layout/Hero';
 import {TegeContact} from '../layout/TegeContact';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -44,7 +45,9 @@ export class Contact extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.CONTACT}
+        />
         <Hero
           jumbo='Contact us'
           q='Contact us'

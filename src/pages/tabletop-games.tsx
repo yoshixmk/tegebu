@@ -8,6 +8,7 @@ import {Tege} from '../type/Tege';
 import {TegeIntroductions} from '../layout/TegeIntroductions';
 import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
+import {Page} from '../type/Page';
 
 type Node = {
   node: {
@@ -47,7 +48,9 @@ export class TabletopGames extends React.Component<Props, State> {
     return (
       <div>
         <Header/>
-        <Nav/>
+        <Nav
+          page={Page.TABLETOP_GAMES}
+        />
         <Hero
           jumbo='Tabletop games'
           q='テーブルゲームの一覧を見る'
