@@ -11,7 +11,6 @@ import {Hero} from '../layout/Hero';
 import {Count} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
-import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 
@@ -78,7 +77,6 @@ export class About extends React.Component<Props, State> {
           slogans={slogans}
         />
         <Loader/>
-        <JS/>
       </div>
     );
   }

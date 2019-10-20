@@ -5,7 +5,6 @@ import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegeContact} from '../layout/TegeContact';
-import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 
@@ -57,7 +56,6 @@ export class Contact extends React.Component<Props, State> {
           slogans={slogans}
         />
         <Loader/>
-        <JS/>
       </div>
     );
   }

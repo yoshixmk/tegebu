@@ -6,7 +6,6 @@ import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegePromises} from '../layout/TegePromises';
 import {Rule} from '../type/Rule';
-import {JS} from '../layout/JS';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 
@@ -62,7 +61,6 @@ export class Events extends React.Component<Props, State> {
           slogans={slogans}
         />
         <Loader/>
-        <JS/>
       </div>
     );
   }
