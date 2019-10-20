@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from './NavLink';
 
 type Props = {
 };
@@ -17,12 +18,30 @@ export class Nav extends React.Component<Props, State> {
           </button>
           <div className='collapse navbar-collapse' id='ftco-nav'>
             <ul className='navbar-nav ml-auto'>
-              <li className='nav-item active'><a href='/' className='nav-link'>Home</a></li>
-              <li className='nav-item'><a href='/about' className='nav-link'>About</a></li>
-              <li className='nav-item'><a href='/events' className='nav-link'>Events</a></li>
-              <li className='nav-item'><a href='/tabletop-games' className='nav-link'>Tabletop games</a></li>
-              <li className='nav-item'><a href='/pricing' className='nav-link'>Pricing</a></li>
-              <li className='nav-item'><a href='/contact' className='nav-link'>Contact</a></li>
+              <NavLink
+                href='/'
+                name='Home'
+              />
+              <NavLink
+                href='/about'
+                name='About'
+              />
+              <NavLink
+                href='/events'
+                name='Events'
+              />
+              <NavLink
+                href='/tabletop-games'
+                name='Tabletop games'
+              />
+              <NavLink
+                href='/pricing'
+                name='Pricing'
+              />
+              <NavLink
+                href='/contact'
+                name='Contact'
+              />
             </ul>
           </div>
         </div>
