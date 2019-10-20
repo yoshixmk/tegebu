@@ -31,7 +31,7 @@ export class TegeThumb extends React.Component<Props, State> {
           <div className='text p-4 d-flex align-items-end'>
             <a href='#' className='btn-custom px-4 py-2'>遊んだ記録を見る</a>
             <div>
-              <span className='price'>$small sum of money</span>
+              <span className='price'>small amount of money</span>
               <h3><a href='#'>{tegename}</a></h3>
               <p>{tegeinspiration}</p>
             </div>

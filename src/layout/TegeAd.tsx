@@ -28,10 +28,9 @@ export class TegeAd extends React.Component<Props, State> {
                 <div className='text p-4 d-flex align-items-end'>
                   <a href='#' className='btn-custom px-4 py-2'>遊んだ記録を見る</a>
                   <div>
-                    <span className='price'>少額 $small sum of money</span>
-                    <h3>Let's play the game. Please contact! </h3>
+                    <span className='price'>少額 small amount of money</span>
+                    <h3>Let's play the game. Please contact us! </h3>
                     <span style={{
-                      //'background: black'
                       background: 'back'
                     }}>参加するには私たちに連絡をください！</span>
                   </div>
