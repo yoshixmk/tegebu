@@ -31,7 +31,7 @@ export class TegeMember extends React.Component<Props, State> {
                 <ul className='ftco-social-media d-flex mt-4'>
                   <li className='ftco-animate'><a href='https://tegebu.slack.com/' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-slack'/></a></li>
                   <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-facebook'/></a></li>
-                  <li className='ftco-animate'><a href='mailto:info@example.com' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-contact_mail'/></a></li>
+                  <li className='ftco-animate'><a href='mailto:info@tegebu.com' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-contact_mail'/></a></li>
                 </ul>
               </div>
             </div>
@@ -52,7 +52,7 @@ export class TegeMember extends React.Component<Props, State> {
                 <ul className='ftco-social-media d-flex mt-4'>
                   <li className='ftco-animate'><a href='https://tegebu.slack.com/' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-slack'/></a></li>
                   <li className='ftco-animate'><a href='https://www.facebook.com/groups/692694907900705/' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-facebook'/></a></li>
-                  <li className='ftco-animate'><a href='mailto:info@example.com' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-contact_mail'/></a></li>
+                  <li className='ftco-animate'><a href='mailto:info@tegebu.com' className='mr-2 d-flex justify-content-center align-items-center'><span className='icon-contact_mail'/></a></li>
                 </ul>
               </div>
             </div>
