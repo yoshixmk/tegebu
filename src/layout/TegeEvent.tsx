@@ -1,5 +1,6 @@
 import React from 'react';
 import {Event} from '../type/Event';
+import {Link} from 'gatsby';
 
 type Props = Event;
 type State = {
@@ -20,10 +21,9 @@ export class TegeEvent extends React.Component<Props, State> {
     return (
       <div className='col-lg-4 d-flex ftco-animate'>
         <div className='blog-entry align-self-stretch'>
-          <a href='/events' className='block-20' style={{
+          <Link to='/events' className='block-20' style={{
             backgroundImage: `url(${thumbnail})`
-          }}>
-          </a>
+          }}/>
           <div className='text py-4 d-flex'>
             <div className='meta text-center'>
               <span className='day'>{day.toString().padStart(2, '0')}</span>
