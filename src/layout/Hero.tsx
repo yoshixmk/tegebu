@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'gatsby';
 
 type Props = {
   jumbo: string;
@@ -27,7 +26,7 @@ export class Hero extends React.Component<Props, State> {
               <h1 className='mb-3 bread' style={{
                 backgroundImage: 'url(/images/bg_1.jpg)'
               }} data-stellar-background-ratio='0.5'>{jumbo}</h1>
-              <p className='breadcrumbs'><span className='mr-2'><Link to='/'>Home.</Link></span> <span>{q}</span></p>
+              <p className='breadcrumbs'><span className='mr-2'><a href='/'>Home.</a></span> <span>{q}</span></p>
             </div>
           </div>
         </div>
