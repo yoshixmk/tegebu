@@ -34,11 +34,7 @@ export default class HTML extends React.Component<Props, State> {
         <body {...bodyAttributes}>
           {preBodyComponents}
           <noscript key='noscript' id='gatsby-noscript'>This app works best with JavaScript enabled.</noscript>
-          <div
-            key='body'
-            id='___gatsby'
-            dangerouslySetInnerHTML={{ __html: body }}
-          />
+          <div key='body' id='___gatsby' dangerouslySetInnerHTML={{ __html: body }}/>
           {postBodyComponents}
           <script src='/js/jquery.min.js'/>
           <script src='/js/jquery-migrate-3.0.1.min.js'/>
