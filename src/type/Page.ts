@@ -8,6 +8,7 @@ export class Page {
   public static TABLETOP_GAMES: Page = new Page('Tabletop games', '/tabletop-games');
   public static PRICING: Page = new Page('Pricing', '/pricing');
   public static CONTACT: Page = new Page('Contact', '/contact');
+  public static NONE: Page = new Page('None', '');
 
   private constructor(name: string, path: string) {
     this.name = name;

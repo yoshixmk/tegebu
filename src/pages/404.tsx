@@ -1,4 +1,10 @@
 import React from 'react';
+import {Header} from '../layout/Header';
+import {Nav} from '../layout/Nav';
+import {Page} from '../type/Page';
+import {Hero} from '../layout/Hero';
+import {Loader} from '../layout/Loader';
+import {JS} from '../layout/JS';
 
 type Props = {
 };
@@ -10,8 +16,16 @@ export class NotFound extends React.Component<Props, State> {
   public render(): React.ReactElement {
     return (
       <div>
-        <h1>NOT FOUND</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <Header/>
+        <Nav
+          page={Page.NONE}
+        />
+        <Hero
+          jumbo='Not found'
+          q='I don&quot;t see any God up here'
+        />
+        <JS/>
+        <Loader/>
       </div>
     );
   }
