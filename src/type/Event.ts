@@ -6,3 +6,5 @@ export type Event = {
   eventName: string;
   description: string;
 };
+
+export type Events = Array<Event>;

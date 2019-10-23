@@ -1,9 +1,9 @@
 import React from 'react';
-import {Event} from '../type/Event';
+import {Event, Events} from '../type/Event';
 import {TegeEvent} from './TegeEvent';
 
 type Props = {
-  events: Array<Event>;
+  events: Events;
 };
 type State = {
 };

@@ -12,7 +12,7 @@ import {TegeCounters} from '../layout/TegeCounters';
 import {Member} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
 import {Word} from '../type/Word';
-import {Event} from '../type/Event';
+import {Events} from '../type/Event';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeEvents} from '../layout/TegeEvents';
 import {TegeContact} from '../layout/TegeContact';
@@ -28,7 +28,7 @@ import {graphql} from 'gatsby';
 type Node = {
   node: {
     counts: Counts;
-    events: Array<Event>;
+    events: Events;
     highlights: Array<Highlight>;
     members: Array<Member>;
     rules: Array<Rule>;
