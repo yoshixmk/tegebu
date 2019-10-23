@@ -7,7 +7,7 @@ import {TegeThumbs} from '../layout/TegeThumbs';
 import {Highlight} from '../type/Highlight';
 import {Rule} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
-import {Count} from '../type/Count';
+import {Counts} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {Member} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
@@ -27,7 +27,7 @@ import {graphql} from 'gatsby';
 
 type Node = {
   node: {
-    counts: Array<Count>;
+    counts: Counts;
     events: Array<Event>;
     highlights: Array<Highlight>;
     members: Array<Member>;

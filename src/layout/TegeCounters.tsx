@@ -1,9 +1,9 @@
 import React from 'react';
-import {Count} from '../type/Count';
+import {Count, Counts} from '../type/Count';
 import {TegeCounter} from './TegeCounter';
 
 type Props = {
-  counts: Array<Count>;
+  counts: Counts;
 };
 type State = {
 };

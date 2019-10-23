@@ -8,7 +8,7 @@ import {Loader} from '../layout/Loader';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
-import {Count} from '../type/Count';
+import {Counts} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
 import {Slogans} from '../type/Slogans';
@@ -18,7 +18,7 @@ import {graphql} from 'gatsby';
 
 type Node = {
   node: {
-    counts: Array<Count>;
+    counts: Counts;
     words: Array<Word>;
     works: Array<Work>;
     slogans: Slogans;

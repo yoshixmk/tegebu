@@ -3,3 +3,5 @@ export type Count = {
   end: number;
   about: string;
 };
+
+export type Counts = Array<Count>;
