@@ -4,7 +4,7 @@ import {Nav} from '../layout/Nav';
 import {IndexHero} from '../layout/IndexHero';
 import {TegeSlogan} from '../layout/TegeSlogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
-import {Highlight} from '../type/Highlight';
+import {Highlights} from '../type/Highlight';
 import {Rule} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
 import {Counts} from '../type/Count';
@@ -29,7 +29,7 @@ type Node = {
   node: {
     counts: Counts;
     events: Events;
-    highlights: Array<Highlight>;
+    highlights: Highlights;
     members: Array<Member>;
     rules: Array<Rule>;
     words: Array<Word>;

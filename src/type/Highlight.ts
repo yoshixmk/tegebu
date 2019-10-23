@@ -4,3 +4,5 @@ export type Highlight = {
   tegeinspiration: string;
   tegeimage: string;
 };
+
+export type Highlights = Array<Highlight>;

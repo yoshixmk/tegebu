@@ -1,9 +1,9 @@
 import React from 'react';
-import {Highlight} from '../type/Highlight';
+import {Highlight, Highlights} from '../type/Highlight';
 import {TegeThumb} from './TegeThumb';
 
 type Props = {
-  highlights: Array<Highlight>;
+  highlights: Highlights;
 };
 type State = {
 };
