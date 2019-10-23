@@ -1,9 +1,9 @@
 import React from 'react';
-import {Rule} from '../type/Rule';
+import {Rules} from '../type/Rule';
 import {TegePromise} from './TegePromise';
 
 type Props = {
-  rules: Array<Rule>;
+  rules: Rules;
 };
 type State = {
 };

@@ -3,3 +3,5 @@ export type Rule = {
   tegephrase: string;
   tegeactivity: string;
 };
+
+export type Rules = Array<Rule>;

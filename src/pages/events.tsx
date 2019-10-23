@@ -5,7 +5,7 @@ import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
 import {TegePromises} from '../layout/TegePromises';
-import {Rule} from '../type/Rule';
+import {Rules} from '../type/Rule';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 import {JS} from '../layout/JS';
@@ -13,7 +13,7 @@ import {graphql} from 'gatsby';
 
 type Node = {
   node: {
-    rules: Array<Rule>;
+    rules: Rules;
     slogans: Slogans;
   };
 };

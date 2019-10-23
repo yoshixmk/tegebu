@@ -5,7 +5,7 @@ import {IndexHero} from '../layout/IndexHero';
 import {TegeSlogan} from '../layout/TegeSlogan';
 import {TegeThumbs} from '../layout/TegeThumbs';
 import {Highlights} from '../type/Highlight';
-import {Rule} from '../type/Rule';
+import {Rules} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
 import {Counts} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
@@ -31,7 +31,7 @@ type Node = {
     events: Events;
     highlights: Highlights;
     members: Members;
-    rules: Array<Rule>;
+    rules: Rules;
     words: Array<Word>;
     works: Array<Work>;
     slogans: Slogans;
