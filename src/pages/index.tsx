@@ -17,7 +17,7 @@ import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeEvents} from '../layout/TegeEvents';
 import {TegeContact} from '../layout/TegeContact';
 import {TegeGallery} from '../layout/TegeGallery';
-import {Work} from '../type/Work';
+import {Works} from '../type/Work';
 import {Footer} from '../layout/Footer';
 import {Loader} from '../layout/Loader';
 import {Slogans} from '../type/Slogans';
@@ -33,7 +33,7 @@ type Node = {
     members: Members;
     rules: Rules;
     words: Words;
-    works: Array<Work>;
+    works: Works;
     slogans: Slogans;
   };
 };

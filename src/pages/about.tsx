@@ -1,6 +1,6 @@
 import React from 'react';
 import {Words} from '../type/Word';
-import {Work} from '../type/Work';
+import {Works} from '../type/Work';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeGallery} from '../layout/TegeGallery';
 import {Footer} from '../layout/Footer';
@@ -20,7 +20,7 @@ type Node = {
   node: {
     counts: Counts;
     words: Words;
-    works: Array<Work>;
+    works: Works;
     slogans: Slogans;
   };
 };
