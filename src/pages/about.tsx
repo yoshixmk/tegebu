@@ -14,6 +14,7 @@ import {TegeBio} from '../layout/TegeBio';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 import {JS} from '../layout/JS';
+import {graphql} from 'gatsby';
 
 type Node = {
   node: {

@@ -22,7 +22,7 @@ export class NotFound extends React.Component<Props, State> {
         />
         <Hero
           jumbo='Not found'
-          q='I don&quot;t see any God up here'
+          q='I don&#39;t see any God up here'
         />
         <JS/>
         <Loader/>

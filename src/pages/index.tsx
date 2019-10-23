@@ -23,6 +23,7 @@ import {Loader} from '../layout/Loader';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
 import {JS} from '../layout/JS';
+import {graphql} from 'gatsby';
 
 type Node = {
   node: {
