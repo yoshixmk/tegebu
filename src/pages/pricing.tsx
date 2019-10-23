@@ -7,6 +7,7 @@ import {Hero} from '../layout/Hero';
 import {TegeAd} from '../layout/TegeAd';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -55,6 +56,7 @@ export class Pricing extends React.Component<Props, State> {
         <Footer
           slogans={slogans}
         />
+        <JS/>
         <Loader/>
       </div>
     );

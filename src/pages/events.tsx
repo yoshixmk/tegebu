@@ -8,6 +8,7 @@ import {TegePromises} from '../layout/TegePromises';
 import {Rule} from '../type/Rule';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -60,6 +61,7 @@ export class Events extends React.Component<Props, State> {
         <Footer
           slogans={slogans}
         />
+        <JS/>
         <Loader/>
       </div>
     );

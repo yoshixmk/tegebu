@@ -7,6 +7,7 @@ import {Hero} from '../layout/Hero';
 import {TegeContact} from '../layout/TegeContact';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -55,6 +56,7 @@ export class Contact extends React.Component<Props, State> {
         <Footer
           slogans={slogans}
         />
+        <JS/>
         <Loader/>
       </div>
     );

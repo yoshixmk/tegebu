@@ -13,6 +13,7 @@ import {TegeCounters} from '../layout/TegeCounters';
 import {TegeBio} from '../layout/TegeBio';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
+import {JS} from '../layout/JS';
 
 type Node = {
   node: {
@@ -76,6 +77,7 @@ export class About extends React.Component<Props, State> {
         <Footer
           slogans={slogans}
         />
+        <JS/>
         <Loader/>
       </div>
     );
