@@ -9,7 +9,7 @@ import {Rule} from '../type/Rule';
 import {TegePromises} from '../layout/TegePromises';
 import {Counts} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
-import {Member} from '../type/Member';
+import {Members} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
 import {Word} from '../type/Word';
 import {Events} from '../type/Event';
@@ -30,7 +30,7 @@ type Node = {
     counts: Counts;
     events: Events;
     highlights: Highlights;
-    members: Array<Member>;
+    members: Members;
     rules: Array<Rule>;
     words: Array<Word>;
     works: Array<Work>;

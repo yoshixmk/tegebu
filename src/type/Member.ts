@@ -5,3 +5,5 @@ export type Member = {
   description: string;
   position: 'left' | 'right';
 };
+
+export type Members = Array<Member>;

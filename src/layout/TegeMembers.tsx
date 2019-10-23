@@ -1,9 +1,9 @@
 import React from 'react';
-import {Member} from '../type/Member';
+import {Member, Members} from '../type/Member';
 import {TegeMember} from './TegeMember';
 
 type Props = {
-  members: Array<Member>;
+  members: Members;
 };
 type State = {
 };
