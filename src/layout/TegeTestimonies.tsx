@@ -1,9 +1,9 @@
 import React from 'react';
-import {Word} from '../type/Word';
+import {Word, Words} from '../type/Word';
 import {TegeTestimony} from './TegeTestimony';
 
 type Props = {
-  words: Array<Word>;
+  words: Words;
 };
 type State = {
 };

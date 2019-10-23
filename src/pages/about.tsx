@@ -1,5 +1,5 @@
 import React from 'react';
-import {Word} from '../type/Word';
+import {Words} from '../type/Word';
 import {Work} from '../type/Work';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeGallery} from '../layout/TegeGallery';
@@ -19,7 +19,7 @@ import {graphql} from 'gatsby';
 type Node = {
   node: {
     counts: Counts;
-    words: Array<Word>;
+    words: Words;
     works: Array<Work>;
     slogans: Slogans;
   };

@@ -4,3 +4,5 @@ export type Word = {
   by: string;
   position: string;
 };
+
+export type Words = Array<Word>;

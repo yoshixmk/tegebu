@@ -11,7 +11,7 @@ import {Counts} from '../type/Count';
 import {TegeCounters} from '../layout/TegeCounters';
 import {Members} from '../type/Member';
 import {TegeMembers} from '../layout/TegeMembers';
-import {Word} from '../type/Word';
+import {Words} from '../type/Word';
 import {Events} from '../type/Event';
 import {TegeTestimonies} from '../layout/TegeTestimonies';
 import {TegeEvents} from '../layout/TegeEvents';
@@ -32,7 +32,7 @@ type Node = {
     highlights: Highlights;
     members: Members;
     rules: Rules;
-    words: Array<Word>;
+    words: Words;
     works: Array<Work>;
     slogans: Slogans;
   };
