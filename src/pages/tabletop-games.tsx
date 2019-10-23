@@ -4,7 +4,7 @@ import {Loader} from '../layout/Loader';
 import {Header} from '../layout/Header';
 import {Nav} from '../layout/Nav';
 import {Hero} from '../layout/Hero';
-import {Tege} from '../type/Tege';
+import {Teges} from '../type/Tege';
 import {TegeIntroductions} from '../layout/TegeIntroductions';
 import {Slogans} from '../type/Slogans';
 import {Page} from '../type/Page';
@@ -13,7 +13,7 @@ import {graphql} from 'gatsby';
 
 type Node = {
   node: {
-    teges: Array<Tege>;
+    teges: Teges;
     slogans: Slogans;
   };
 };

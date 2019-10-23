@@ -1,9 +1,9 @@
 import React from 'react';
-import {Tege} from '../type/Tege';
+import {Tege, Teges} from '../type/Tege';
 import {TegeIntroduction} from './TegeIntroduction';
 
 type Props = {
-  teges: Array<Tege>;
+  teges: Teges;
 };
 type State = {
 };

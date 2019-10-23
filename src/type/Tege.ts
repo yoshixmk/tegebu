@@ -9,3 +9,5 @@ export type Tege = {
   tegeimpression: string;
   tegeimage: string;
 };
+
+export type Teges = Array<Tege>;
