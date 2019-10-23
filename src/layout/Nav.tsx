@@ -25,34 +25,28 @@ export class Nav extends React.Component<Props, State> {
           <div className='collapse navbar-collapse' id='ftco-nav'>
             <ul className='navbar-nav ml-auto'>
               <NavLink
-                href='/'
-                name='Home'
-                page={page}
+                page={Page.INDEX}
+                current={page}
               />
               <NavLink
-                href='/about'
-                name='About'
-                page={page}
+                page={Page.ABOUT}
+                current={page}
               />
               <NavLink
-                href='/events'
-                name='Events'
-                page={page}
+                page={Page.EVENTS}
+                current={page}
               />
               <NavLink
-                href='/tabletop-games'
-                name='Tabletop games'
-                page={page}
+                page={Page.TABLETOP_GAMES}
+                current={page}
               />
               <NavLink
-                href='/pricing'
-                name='Pricing'
-                page={page}
+                page={Page.PRICING}
+                current={page}
               />
               <NavLink
-                href='/contact'
-                name='Contact'
-                page={page}
+                page={Page.CONTACT}
+                current={page}
               />
             </ul>
           </div>
