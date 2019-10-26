@@ -18,7 +18,7 @@
     "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean"
   },
   "dependencies": {
-    "gatsby": "2.17.2",
+    "gatsby": "2.17.4",
     "gatsby-plugin-google-analytics": "2.1.23",
     "gatsby-plugin-react-helmet": "3.1.13",
     "gatsby-plugin-sharp": "2.2.32",
@@ -31,9 +31,9 @@
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
-    "@types/node": "12.11.6",
-    "@types/react": "16.9.9",
-    "@types/react-dom": "16.9.2",
+    "@types/node": "12.11.7",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
     "@types/react-helmet": "5.0.13",
     "gh-pages": "2.1.1",
     "typescript": "3.6.4"
