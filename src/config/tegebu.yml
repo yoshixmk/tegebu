@@ -69,7 +69,7 @@ teges:
     tegetime: 10
     tegepersons: '3-6'
     tegeage: 8
-    tegedescription: '部屋に来た来訪者の中に誰がいたか、また、誰がまだ部屋にいるかを話し合う。殺人鬼をボイラー室に送り込めば勝ち'
+    tegedescription: '隣の部屋(他の人)から1枚来訪者を受け取り、山札から1枚引く。そのどちらかの来訪者を選び自分の役とする。殺人鬼をボイラー室に送り込めば勝ち。殺人鬼はその逆'
     tegeimpression: '自分で演じる役職を2枚から選ぶことができる。慣れないうちは無難に客人(能力のない人)をやっておくだけでも楽しい。1てげが短いので気楽に正体隠匿てげができる'
     tegeimage: 'mokugekishatachi-no-yoru.jpg'
   -
@@ -80,7 +80,7 @@ teges:
     tegepersons: '3-8'
     tegeage: 8
     tegedescription: '犯人のカードを出せば勝ち。でも犯人のカードは手札が1枚になったときにしか出せない。途中で犯人のカードを手放すこともあるし、探偵によって看破されることもある'
-    tegeimpression: '正体隠匿に近いが、役目が途中でほぼ変わるてげ。また、毎回使用するカードセットが変わるのも特徴、コレが何枚あるから・・・といった計算ができなく、稚拙の差が出づらい'
+    tegeimpression: '正体隠匿に近いが、役目が途中でほぼ変わるてげ。また、毎回使用するカードセットが変わるのも特徴、このカードが何枚あるから・・・といった計算ができなく、稚拙の差が出づらい'
     tegeimage: 'hannin-ha-odoru.jpg'
   -
     tegename: 'ナンジャモンジャ シロ'
@@ -144,17 +144,17 @@ teges:
     tegeimage: 'yabu-no-naka.jpg'
   -
     tegename: 'ZOGEN'
-    tegegenre: '不明'
-    tegeeasiness: '不明'
+    tegegenre: '神経衰弱'
+    tegeeasiness: '軽い'
     tegetime: 20
     tegepersons: '2-6'
     tegeage: 6
-    tegedescription: '場に出ているカードと手札にあるカードの微生物と見比べる。微生物が1匹増減していて、かつ同じ種類であれば、そのカードを、増減している1匹の種類を叫びながら出すことができる'
-    tegeimpression: '遊んだことがないが、出せるカードがめまぐるしく変わるタイプのてげだと思われる'
+    tegedescription: '場に出ているカードと手札にあるカードの生物(微生物)と見比べる。微生物が1匹増減していて、かつ同じ種類であれば、そのカードを、増減している1匹の種類を叫びながら出すことができる。先に手持ちのカードが3枚になった人はおわりと宣言すれば勝ち'
+    tegeimpression: '出せるカードが場に出ている最新の1枚に依存する。早く出さないと他の人がカードを出してしまう。すると出せるカードがまた変わってしまう。また、バレなければイカサマをしてもよい'
     tegeimage: 'zogen.jpg'
   -
     tegename: '海底探索'
-    tegegenre: 'チキンてげ'
+    tegegenre: 'チキンレース'
     tegeeasiness: '軽い'
     tegetime: 30
     tegepersons: '2-6'
@@ -469,8 +469,8 @@ teges:
     tegetime: 5
     tegepersons: '2-13'
     tegeage: 10
-    tegedescription: '村人(何も能力がない人)以外の人は他の能力者を騙ってもよい上に、騙った瞬間その役職の能力を使うことができる。という概念の人狼'
-    tegeimpression: '遊ぶ時間は非常に短いが、考えなければならないことは非常に多い。遊んだことはない'
+    tegedescription: '村人陣営以外の人は他の能力者を騙ってもよいうえに、騙るとその役職の能力を使うことができる。もちろん嘘つき放題。おおかみはおおかみたちが投票で最多得票にならなければ勝ち'
+    tegeimpression: 'ほぼ役職の騙りが出るうえに、その数がほかの人狼系と比べて多い'
     tegeimage: 'one-morning-jinrou.jpg'
   -
     tegename: 'The Resistance'
@@ -624,7 +624,7 @@ teges:
     tegeimage: 'death-note-jinrou.jpg'
   -
     tegename: 'DUNGEON OF MANDOM VIII'
-    tegegenre: 'チキンてげ'
+    tegegenre: 'チキンレース'
     tegeeasiness: 'やや重い'
     tegetime: 30
     tegepersons: '2-4'
@@ -710,7 +710,7 @@ teges:
     tegepersons: '5-98'
     tegeage: 13
     tegedescription: '役職が非常に多い。ルール自体は一般的な人狼と同じ'
-    tegeimpression: 'この人狼を使わないと遊べないような人数で人狼したら、日が暮れると思う。実際に遊んだことはない'
+    tegeimpression: 'この人狼を使わないと遊べないような人数で人狼をしたら、日が暮れると思う。実際に遊んだことはない'
     tegeimage: 'kyuukyoku-no-jinrou-kyuukyoku-ban.jpg'
   -
     tegename: 'ULTIMATE WEREWOLF DELUXE EDITION'
@@ -802,6 +802,16 @@ teges:
     tegedescription: '遊んだことはない'
     tegeimpression: 'とくになし'
     tegeimage: 'one-night-ultimate-vampire.jpg'
+  -
+    tegename: 'ONE NIGHT ULTIMATE ALIEN'
+    tegegenre: '正体隠匿'
+    tegeeasiness: 'やや重い'
+    tegetime: 10
+    tegepersons: '4-10'
+    tegeage: 10
+    tegedescription: '遊んだことはない'
+    tegeimpression: 'とくになし'
+    tegeimage: 'one-night-ultimate-alien.jpg'
   -
     tegename: 'The Werewolves of Miller''s Hollow'
     tegegenre: '正体隠匿'
@@ -932,6 +942,16 @@ teges:
     tegedescription: '協力型のてげ。PANDEMICの拡張ではないので単体で遊ぶことができる。古きものたちが全員封印を解かれるまでに、異世界に繋がる門を封印する'
     tegeimpression: 'クトゥルフのバックグラウンドがあると意味がわかりやすい'
     tegeimage: 'pandemic-cthulhu.jpg'
+  -
+    tegename: 'BABEL'
+    tegegenre: '正体隠匿'
+    tegeeasiness: '普通'
+    tegetime: 20
+    tegepersons: '1-5'
+    tegeage: 9
+    tegedescription: 'キャプテン・リノのように壁のとなる台紙と床となる台紙を使い塔を積み重ねていくてげだが、正体隠匿の名の通り、塔の完成をよしとしない裏切り者がいる'
+    tegeimpression: '雰囲気自体は正体隠匿を主目的とするてげより軽い。それはこのてげの主目的は塔の完成だからかもしれない'
+    tegeimage: 'babel.jpg'
 highlights:
   -
     tegename: '目撃者たちの夜'
