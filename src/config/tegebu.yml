@@ -470,7 +470,7 @@ teges:
     tegepersons: '2-13'
     tegeage: 10
     tegedescription: '村人陣営以外の人は他の能力者を騙ってもよいうえに、騙るとその役職の能力を使うことができる。もちろん嘘つき放題。おおかみはおおかみたちが投票で最多得票にならなければ勝ち'
-    tegeimpression: 'ほぼ役職の騙りが出るうえに、その数がほかの人狼系と比べて多い'
+    tegeimpression: '騙ることによるマイナス点がないためほぼ役職の騙りが出るうえに、その数がほかの人狼系と比べて多い'
     tegeimage: 'one-morning-jinrou.jpg'
   -
     tegename: 'The Resistance'
