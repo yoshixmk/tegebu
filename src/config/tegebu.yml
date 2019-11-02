@@ -969,9 +969,29 @@ teges:
     tegetime: 5
     tegepersons: '6-16'
     tegeage: 10
-    tegedescription: 'あるモノやコトについて話し合う。ほとんどの人は同じモノやコトについて話すが、ごく少数の、人狼に置ける人狼役の人だけ違うお題を与えられている。多数派は誰が違うお題で話しているかを当てる'
+    tegedescription: 'あるモノやコトについて話し合う。ほとんどの人は同じモノやコトについて話すが、ごく少数の、人狼における人狼役の人だけ違うお題を与えられている。多数派は誰が違うお題で話しているかを当てる'
     tegeimpression: '人狼役である少数派は、もしバレてしまっても、最終的に多数派が何について話しているかを当てられたら勝ちという逆転要素がある'
     tegeimage: 'word-wolf-ios.png'
+  -
+    tegename: 'がんめんマン'
+    tegegenre: '福笑い？'
+    tegeeasiness: '軽い'
+    tegetime: 20
+    tegepersons: '3-6'
+    tegeage: 9
+    tegedescription: '制限時間内にお題の通りの顔面を作成する。それを多くの人に何についての顔か当ててもらえると作成者と回答者に得点'
+    tegeimpression: '遊んだことはない'
+    tegeimage: 'ganmen-man.jpg'
+  -
+    tegename: 'Hol''s der Geier'
+    tegegenre: 'カードゲーム'
+    tegeeasiness: '軽い'
+    tegetime: 20
+    tegepersons: '2-5'
+    tegeage: 8
+    tegedescription: '各自1-15までの数値が書かれたカードを持つ。このカードは使い捨てで、得点のカードをどれぐらい欲しいかで競うのに使う。一番大きい数値を出した人が得点を手にするが、同じ数値を出した人がいる場合、その人たちは得点を手にする権利を失う'
+    tegeimpression: 'ハゲタカのえじきという邦題がある。非常に単純であるが、てげにおいて大きな役割を果たした作品でもある'
+    tegeimage: 'hols-der-geier.jpg'
 highlights:
   -
     tegename: '目撃者たちの夜'
