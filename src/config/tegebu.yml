@@ -130,7 +130,7 @@ teges:
     tegepersons: '3-6'
     tegeage: 6
     tegedescription: 'いわゆる早口言葉のてげ。トマト、マト、マ、トのタイルを並べ、左から順番に読み上げる'
-    tegeimpression: '子供、外国人に対しては合格(早口で言えたこと)の基準を緩くしてあげよう。意外と盛り上がる'
+    tegeimpression: '子供、外国人に対しては合格(早口でいえたこと)の基準を緩くしてあげよう。意外と盛り上がる'
     tegeimage: 'tomatomato.jpg'
   -
     tegename: '藪の中'
@@ -279,7 +279,7 @@ teges:
     tegetime: 20
     tegepersons: '2-6'
     tegeage: 8
-    tegedescription: '害虫、害獣が書かれたカードを「これはナントカです」と言いながら渡す。それは本当でも嘘でもいい。受け取った人はそれが本当か嘘か見破るか、みた上で次の人に渡す。正解ならカードを押し付けてきた人に、そうでなければ外した人の前にカードを置く。同じ動物のカードが4枚揃った人の負け'
+    tegedescription: '害虫、害獣が書かれたカードを「これはナントカです」といいながら渡す。それは本当でも嘘でもいい。受け取った人はそれが本当か嘘か見破るか、みた上で次の人に渡す。正解ならカードを押し付けてきた人に、そうでなければ外した人の前にカードを置く。同じ動物のカードが4枚揃った人の負け'
     tegeimpression: 'ごきぶりポーカーという名前が有名。害虫、害獣の中には到底外国人が知らないモノがおり、そのため外国人と遊ぶには適していないと思う'
     tegeimage: 'kakerlaken-poker.jpg'
   -
@@ -309,7 +309,7 @@ teges:
     tegetime: 40
     tegepersons: '4-30'
     tegeage: 9
-    tegedescription: '人数は6名以上を推奨。人狼全般に言えるが、脱落者は暇になる。絶版のかほりがする'
+    tegedescription: '人数は6名以上を推奨。人狼全般にいえるが、脱落者は暇になる。絶版のかほりがする'
     tegeimpression: '特に指定がなければこの人狼のカードセットを使うことが多い。必要な役職が一通り揃っている。口論が発生しやすいのでてげと割り切れない人が参加するのは難しい'
     tegeimage: 'jinroh-usotsuki-ha-dareda.jpg'
   -
@@ -370,7 +370,7 @@ teges:
     tegepersons: '2-8'
     tegeage: 8
     tegedescription: 'カードに書かれているモノのうち、色と形が同じものがあればそのモノを取る。ない場合は色も、形もそのカードに書かれていないモノをとる'
-    tegeimpression: '対象年齢8歳からとあるが、それ以下でも遊べるほどにルールが明快。単純だがそれなりに盛り上がる'
+    tegeimpression: 'おばけキャッチという邦題がある。対象年齢8歳からとあるが、それ以下でも遊べるほどにルールが明快。単純だがそれなりに盛り上がる'
     tegeimage: 'geistesblitz.jpg'
   -
     tegename: 'Geistesblitz 2.0'
@@ -410,7 +410,7 @@ teges:
     tegepersons: '2-6'
     tegeage: 10
     tegedescription: 'Love Letterの亜種。基本はLove Letterと同じだが、狂人化というシステムがあり、狂人するとカードが強力になるが、それが自分に返ってくることもある。つまり脱落の恐れが増える(発狂と呼ぶ)'
-    tegeimpression: 'クトゥルフを知っていると楽しいかもしれないが、知らなくても楽しむことはできる。普通状態、狂人状態で勝利条件が変わるので、どちらでもいいから勝てばいい、というわけではない'
+    tegeimpression: 'クトゥルフを知っていると楽しいかもしれないが、知らなくても楽しむことはできる。ただし、Love Letterを知らない人が遊ぶことは難しい。普通状態、狂人状態で勝利条件が変わるので、どちらでもいいから勝てばいい、というわけではない'
     tegeimage: 'lovecraft-letter.jpg'
   -
     tegename: 'R-Rivals'
@@ -952,6 +952,26 @@ teges:
     tegedescription: 'キャプテン・リノのように壁のとなる台紙と床となる台紙を使い塔を積み重ねていくてげだが、正体隠匿の名の通り、塔の完成をよしとしない裏切り者がいる'
     tegeimpression: '雰囲気自体は正体隠匿を主目的とするてげより軽い。それはこのてげの主目的は塔の完成だからかもしれない'
     tegeimage: 'babel.jpg'
+  -
+    tegename: 'ワンナイト人狼 for iPhone'
+    tegegenre: '正体隠匿'
+    tegeeasiness: '普通'
+    tegetime: 5
+    tegepersons: '3-10'
+    tegeage: 10
+    tegedescription: '基本はカードでやるワンナイト人狼と同じ。人狼は処刑されなければ勝ちという概念も同じ'
+    tegeimpression: '拡張の役職もある。また、このアプリケーションにしかいない役職がいくつか存在する'
+    tegeimage: 'one-night-jinrou-ios.png'
+  -
+    tegename: 'ワードウルフ(ワード人狼)'
+    tegegenre: '正体隠匿'
+    tegeeasiness: '普通'
+    tegetime: 5
+    tegepersons: '6-16'
+    tegeage: 10
+    tegedescription: 'あるモノやコトについて話し合う。ほとんどの人は同じモノやコトについて話すが、ごく少数の、人狼に置ける人狼役の人だけ違うお題を与えられている。多数派は誰が違うお題で話しているかを当てる'
+    tegeimpression: '人狼役である少数派は、もしバレてしまっても、最終的に多数派が何について話しているかを当てられたら勝ちという逆転要素がある'
+    tegeimage: 'word-wolf-ios.png'
 highlights:
   -
     tegename: '目撃者たちの夜'
