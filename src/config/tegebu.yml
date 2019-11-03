@@ -290,7 +290,7 @@ teges:
     tegepersons: '3-5'
     tegeage: 7
     tegedescription: 'このてげではひとりの監視役を除いてイカサマが認められている。それどこかイカサマをしないと捨てることができないカードさえある、完全にイカサマ推奨である。監視役はイカサマを見逃さないようにカードゲームを行う。手持ちのカードがなくなれば勝ち'
-    tegeimpression: 'いかさまゴキブリという邦題があるが、MOTTEはガのことである。カードの隠し方、捨て方に容赦のない人がいるとカードが破損し遊べなくなるという、購入者泣かせのジンクスがある'
+    tegeimpression: 'いかさまゴキブリという邦題があるが、MOTTEはガのことである。カードの隠し方、捨て方に容赦のない人がいるとカードが破損、喪失し遊べなくなるという、購入者泣かせのジンクスがある'
     tegeimage: 'mogel-motte.jpg'
   -
     tegename: 'neu'
@@ -510,7 +510,7 @@ teges:
     tegepersons: '5-16'
     tegeage: 10
     tegedescription: '人狼の世界観をボードゲームに落とし込んだてげ。道を閉鎖することができ、閉鎖された先へは村人は逃げられれず、人狼は襲撃ができない'
-    tegeimpression: '性質上人狼に慣れていないと理解が難しい'
+    tegeimpression: '毎回村の構成が変わり、その上で人狼を行う。性質上人狼に慣れていないと理解が難しい'
     tegeimage: 'wow-werewolf.jpg'
   -
     tegename: 'Marrakech'
