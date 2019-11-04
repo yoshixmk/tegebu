@@ -413,6 +413,16 @@ teges:
     tegeimpression: 'クトゥルフを知っていると楽しいかもしれないが、知らなくても楽しむことはできる。ただし、Love Letterを知らない人が遊ぶことは難しい。普通状態、狂人状態で勝利条件が変わるので、どちらでもいいから勝てばいい、というわけではない'
     tegeimage: 'lovecraft-letter.jpg'
   -
+    tegename: 'XENO'
+    tegegenre: 'カードゲーム'
+    tegeeasiness: '軽い'
+    tegetime: 10
+    tegepersons: '2-4'
+    tegeage: 10
+    tegedescription: '皇帝の圧政により苦しむ世界を救世主が現れ。。。という重めの背景がある。正体隠匿のカードゲーム'
+    tegeimpression: '遊んだことはない。全てのカードは18枚。手札が1枚で山札から1枚を引いて1枚を捨て、そのカードの効果が発動するという、Love Letterと構成が非常に似ている'
+    tegeimage: 'xeno.jpg'
+  -
     tegename: 'R-Rivals'
     tegegenre: 'カードゲーム'
     tegeeasiness: '軽い'
