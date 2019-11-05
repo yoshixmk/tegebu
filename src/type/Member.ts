@@ -3,7 +3,6 @@ export type Member = {
   memberName: string;
   memberImage: string;
   description: string;
-  position: 'left' | 'right';
 };
 
 export type Members = Array<Member>;

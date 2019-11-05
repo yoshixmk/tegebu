@@ -1,7 +1,9 @@
 import React from 'react';
 import {Member} from '../type/Member';
 
-type Props = Member;
+type Props = Member & {
+  index: number;
+};
 type State = {
 };
 
@@ -13,16 +15,19 @@ export class TegeMember extends React.Component<Props, State> {
       memberName,
       memberImage,
       description,
-      position
+      index
     } = this.props;
 
-    switch (position) {
-      case 'left': {
+    const mod: number = index % 4;
+
+    switch (mod) {
+      case 0:
+      case 1: {
         return (
           <div className='col-lg-6 d-flex'>
             <div className='coach d-sm-flex align-items-stretch'>
               <div className='img' style={{
-                backgroundImage: `url(${memberImage})`
+                backgroundImage: `url(/images/${memberImage})`
               }}/>
               <div className='text py-4 px-5 ftco-animate'>
                 <span className='subheading'>{subheading}</span>
@@ -38,7 +43,8 @@ export class TegeMember extends React.Component<Props, State> {
           </div>
         );
       }
-      case 'right': {
+      case 2:
+      case 3: {
         return (
           <div className='col-lg-6 d-flex'>
             <div className='coach d-sm-flex align-items-stretch'>
@@ -53,7 +59,7 @@ export class TegeMember extends React.Component<Props, State> {
                 </ul>
               </div>
               <div className='img order-xl-last' style={{
-                backgroundImage: `url(${memberImage})`
+                backgroundImage: `url(/images/${memberImage})`
               }}/>
             </div>
           </div>

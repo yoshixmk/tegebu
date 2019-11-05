@@ -143,7 +143,6 @@ query {
           memberName
           memberImage
           description
-          position
         }
         rules {
           tegeicon

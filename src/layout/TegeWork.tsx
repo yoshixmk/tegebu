@@ -15,7 +15,7 @@ export class TegeWork extends React.Component<Props, State> {
     return (
       <div className='col-md-3 ftco-animate'>
         <div className='gallery img d-flex align-items-center' style={{
-          backgroundImage: `url(${work})`
+          backgroundImage: `url(/images/${work})`
         }}>
           <div className='icon mb-4 d-flex align-items-center justify-content-center'>
             <span className='icon-search'/>

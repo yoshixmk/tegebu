@@ -19,7 +19,7 @@ export class TegeTestimony extends React.Component<Props, State> {
       <div className='item'>
         <div className='testimony-wrap py-4 pb-5'>
           <div className='user-img mb-4' style={{
-            backgroundImage: `url(${headshot})`
+            backgroundImage: `url(/images/${headshot})`
           }}>
             <span className='quote d-flex align-items-center justify-content-center'>
               <i className='icon-quote-left'/>

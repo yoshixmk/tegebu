@@ -28,13 +28,12 @@ export class TegeMembers extends React.Component<Props, State> {
             </div>
           </div>
           <div className='row no-gutters'>
-            {members.map<React.ReactElement>((member: Member): React.ReactElement => {
+            {members.map<React.ReactElement>((member: Member, index: number): React.ReactElement => {
               const {
                 subheading,
                 memberName,
                 memberImage,
-                description,
-                position
+                description
               } = member;
 
               return (
@@ -44,7 +43,7 @@ export class TegeMembers extends React.Component<Props, State> {
                   memberName={memberName}
                   memberImage={memberImage}
                   description={description}
-                  position={position}
+                  index={index}
                 />
               );
             })}

@@ -21,7 +21,7 @@ export class TegeEvent extends React.Component<Props, State> {
       <div className='col-lg-4 d-flex ftco-animate'>
         <div className='blog-entry align-self-stretch'>
           <a href='/events' className='block-20' style={{
-            backgroundImage: `url(${thumbnail})`
+            backgroundImage: `url(/images/${thumbnail})`
           }}/>
           <div className='text py-4 d-flex'>
             <div className='meta text-center'>
