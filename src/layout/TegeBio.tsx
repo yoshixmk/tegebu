@@ -22,7 +22,7 @@ export class TegeBio extends React.Component<Props, State> {
             <h2 className='mb-4'>Tegebu Since 2019</h2>
           </div>
           <div>
-            <p>Tegebu is an abbreviation of Japanese-like pronunciation of 'tabletop games club' as 'teburutoppu gemusu kurabu'. In other languages, Tegebu is called in such ways.</p>
+            <p>Tegebu is an abbreviation of the Japanese-like pronunciation of ‘tabletop games club’ as ‘teburutoppu gemusu kurabu. In other languages, Tegebu is called in such ways.</p>
             <p>Tabletop games club (English: English)</p>
             <p>卓上遊戯倶楽部 (日本語: Japanese)</p>
             <p>桌面游戏俱乐部 (中文: Chinese)</p>
