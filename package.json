@@ -15,7 +15,8 @@
     "build": "gatsby clean && gatsby build",
     "clean": "gatsby clean",
     "start": "gatsby develop",
-    "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean"
+    "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
+    "update": "ncu -u && yarn install"
   },
   "dependencies": {
     "gatsby": "2.19.43",
@@ -36,6 +37,7 @@
     "@types/react-dom": "16.9.5",
     "@types/react-helmet": "5.0.15",
     "gh-pages": "2.2.0",
+    "npm-check-updates": "4.1.2",
     "typescript": "3.8.3"
   }
 }
