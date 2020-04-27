@@ -16,6 +16,7 @@
     "clean": "gatsby clean",
     "start": "gatsby develop",
     "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
+    "dry": "gatsby build && cp CNAME public/CNAME",
     "update": "ncu -u && yarn install"
   },
   "dependencies": {

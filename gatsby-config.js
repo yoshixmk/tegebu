@@ -23,6 +23,7 @@ module.exports = {
       options: {
         trackingId: 'UA-149348992-1'
       }
-    }
+    },
+    `gatsby-plugin-sitemap`
   ]
 };
