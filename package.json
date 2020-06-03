@@ -3,7 +3,10 @@
   "version": "1.0.1",
   "description": "awesome tabletop games club page",
   "main": "dist/pages/index.js",
-  "repository": "git@github.com:yoshixmk/tegebu.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yoshixmk/tegebu.git"
+  },
   "author": "yoshixmk <pirori67@gmail.com>",
   "contributors": [
     "jamashita <jamashita@arachnid.xyz>"
@@ -17,7 +20,7 @@
     "start": "gatsby develop",
     "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
     "dry": "gatsby build && cp CNAME public/CNAME",
-    "update": "ncu -u && yarn install"
+    "update": "ncu -u && yarn install && yarn upgrade"
   },
   "dependencies": {
     "gatsby": "2.21.0",
