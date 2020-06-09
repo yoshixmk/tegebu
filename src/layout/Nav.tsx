@@ -1,12 +1,12 @@
 import React from 'react';
-import {NavLink} from './NavLink';
-import {Page} from '../type/Page';
 
-type Props = {
+import { Page } from '../type/Page';
+import { NavLink } from './NavLink';
+
+type Props = Readonly<{
   page: Page;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class Nav extends React.Component<Props, State> {
 

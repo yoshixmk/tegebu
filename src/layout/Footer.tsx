@@ -1,11 +1,11 @@
 import React from 'react';
-import {Slogans} from '../type/Slogans';
 
-type Props = {
+import { Slogans } from '../type/Slogans';
+
+type Props = Readonly<{
   slogans: Slogans;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class Footer extends React.Component<Props, State> {
 

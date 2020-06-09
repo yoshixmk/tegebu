@@ -1,15 +1,14 @@
 import React from 'react';
 
-type Props = {
+type Props = Readonly<{
   htmlAttributes: object;
   headComponents: Array<unknown>;
   bodyAttributes: object;
   preBodyComponents: Array<unknown>;
   body: string;
   postBodyComponents: Array<unknown>;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export default class HTML extends React.Component<Props, State> {
 

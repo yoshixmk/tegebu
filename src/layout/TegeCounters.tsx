@@ -1,12 +1,12 @@
 import React from 'react';
-import {Count, Counts} from '../type/Count';
-import {TegeCounter} from './TegeCounter';
 
-type Props = {
+import { Count, Counts } from '../type/Count';
+import { TegeCounter } from './TegeCounter';
+
+type Props = Readonly<{
   counts: Counts;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class TegeCounters extends React.Component<Props, State> {
 

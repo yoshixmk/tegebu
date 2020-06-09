@@ -1,10 +1,9 @@
 import React from 'react';
-import {Script} from './Script';
 
-type Props = {
-};
-type State = {
-};
+import { Script } from './Script';
+
+type Props = Readonly<{}>;
+type State = Readonly<{}>;
 
 export class JS extends React.Component<Props, State> {
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Work} from '../type/Work';
+
+import { Work } from '../type/Work';
 
 type Props = Work;
-type State = {
-};
+type State = Readonly<{}>;
 
 export class TegeWork extends React.Component<Props, State> {
 

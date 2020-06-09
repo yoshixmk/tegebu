@@ -1,4 +1,4 @@
-export type Tege = {
+export type Tege = Readonly<{
   tegename: string;
   tegegenre: string;
   tegeeasiness: string;
@@ -8,6 +8,6 @@ export type Tege = {
   tegedescription: string;
   tegeimpression: string;
   tegeimage: string;
-};
+}>;
 
 export type Teges = Array<Tege>;

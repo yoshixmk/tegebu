@@ -1,11 +1,10 @@
 import React from 'react';
 
-type Props = {
+type Props = Readonly<{
   jumbo: string;
   q: string;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class Hero extends React.Component<Props, State> {
 

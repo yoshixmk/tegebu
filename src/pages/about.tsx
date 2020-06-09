@@ -1,39 +1,39 @@
+import { graphql } from 'gatsby';
 import React from 'react';
-import {Words} from '../type/Word';
-import {Works} from '../type/Work';
-import {TegeTestimonies} from '../layout/TegeTestimonies';
-import {TegeGallery} from '../layout/TegeGallery';
-import {Footer} from '../layout/Footer';
-import {Loader} from '../layout/Loader';
-import {Header} from '../layout/Header';
-import {Nav} from '../layout/Nav';
-import {Hero} from '../layout/Hero';
-import {Counts} from '../type/Count';
-import {TegeCounters} from '../layout/TegeCounters';
-import {TegeBio} from '../layout/TegeBio';
-import {Slogans} from '../type/Slogans';
-import {Page} from '../type/Page';
-import {JS} from '../layout/JS';
-import {graphql} from 'gatsby';
 
-type Node = {
-  node: {
+import { Footer } from '../layout/Footer';
+import { Header } from '../layout/Header';
+import { Hero } from '../layout/Hero';
+import { JS } from '../layout/JS';
+import { Loader } from '../layout/Loader';
+import { Nav } from '../layout/Nav';
+import { TegeBio } from '../layout/TegeBio';
+import { TegeCounters } from '../layout/TegeCounters';
+import { TegeGallery } from '../layout/TegeGallery';
+import { TegeTestimonies } from '../layout/TegeTestimonies';
+import { Counts } from '../type/Count';
+import { Page } from '../type/Page';
+import { Slogans } from '../type/Slogans';
+import { Words } from '../type/Word';
+import { Works } from '../type/Work';
+
+type Node = Readonly<{
+  node: Readonly<{
     counts: Counts;
     words: Words;
     works: Works;
     slogans: Slogans;
-  };
-};
+  }>;
+}>;
 
-type Props = {
-  data: {
-    allConfigYaml: {
+type Props = Readonly<{
+  data: Readonly<{
+    allConfigYaml: Readonly<{
       edges: Array<Node>;
-    };
-  };
-};
-type State = {
-};
+    }>;
+  }>;
+}>;
+type State = Readonly<{}>;
 
 export class About extends React.Component<Props, State> {
 

@@ -1,32 +1,32 @@
+import { graphql } from 'gatsby';
 import React from 'react';
-import {Footer} from '../layout/Footer';
-import {Loader} from '../layout/Loader';
-import {Header} from '../layout/Header';
-import {Nav} from '../layout/Nav';
-import {Hero} from '../layout/Hero';
-import {Teges} from '../type/Tege';
-import {TegeIntroductions} from '../layout/TegeIntroductions';
-import {Slogans} from '../type/Slogans';
-import {Page} from '../type/Page';
-import {JS} from '../layout/JS';
-import {graphql} from 'gatsby';
 
-type Node = {
-  node: {
+import { Footer } from '../layout/Footer';
+import { Header } from '../layout/Header';
+import { Hero } from '../layout/Hero';
+import { JS } from '../layout/JS';
+import { Loader } from '../layout/Loader';
+import { Nav } from '../layout/Nav';
+import { TegeIntroductions } from '../layout/TegeIntroductions';
+import { Page } from '../type/Page';
+import { Slogans } from '../type/Slogans';
+import { Teges } from '../type/Tege';
+
+type Node = Readonly<{
+  node: Readonly<{
     teges: Teges;
     slogans: Slogans;
-  };
-};
+  }>;
+}>;
 
-type Props = {
-  data: {
-    allConfigYaml: {
+type Props = Readonly<{
+  data: Readonly<{
+    allConfigYaml: Readonly<{
       edges: Array<Node>;
-    };
-  };
-};
-type State = {
-};
+    }>;
+  }>;
+}>;
+type State = Readonly<{}>;
 
 export class TabletopGames extends React.Component<Props, State> {
 

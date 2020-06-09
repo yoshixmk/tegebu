@@ -1,12 +1,12 @@
 import React from 'react';
-import {Event, Events} from '../type/Event';
-import {TegeEvent} from './TegeEvent';
 
-type Props = {
+import { Event, Events } from '../type/Event';
+import { TegeEvent } from './TegeEvent';
+
+type Props = Readonly<{
   events: Events;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class TegeEvents extends React.Component<Props, State> {
 

@@ -1,10 +1,8 @@
 import React from 'react';
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
-type Props = {
-};
-type State = {
-};
+type Props = Readonly<{}>;
+type State = Readonly<{}>;
 
 export class Header extends React.Component<Props, State> {
 

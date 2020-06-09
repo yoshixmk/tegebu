@@ -1,12 +1,12 @@
 import React from 'react';
-import {Member, Members} from '../type/Member';
-import {TegeMember} from './TegeMember';
 
-type Props = {
+import { Member, Members } from '../type/Member';
+import { TegeMember } from './TegeMember';
+
+type Props = Readonly<{
   members: Members;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class TegeMembers extends React.Component<Props, State> {
 

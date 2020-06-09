@@ -1,12 +1,12 @@
 import React from 'react';
-import {Work, Works} from '../type/Work';
-import {TegeWork} from './TegeWork';
 
-type Props = {
+import { Work, Works } from '../type/Work';
+import { TegeWork } from './TegeWork';
+
+type Props = Readonly<{
   works: Works;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class TegeGallery extends React.Component<Props, State> {
 

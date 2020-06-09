@@ -1,14 +1,14 @@
 export class Page {
-  private name: string;
-  private path: string;
+  private readonly name: string;
+  private readonly path: string;
 
-  public static INDEX: Page = new Page('Home', '/');
-  public static ABOUT: Page = new Page('About', '/about');
-  public static EVENTS: Page = new Page('Events', '/events');
-  public static TABLETOP_GAMES: Page = new Page('Tabletop games', '/tabletop-games');
-  public static PRICING: Page = new Page('Pricing', '/pricing');
-  public static CONTACT: Page = new Page('Contact', '/contact');
-  public static NONE: Page = new Page('None', '');
+  public static readonly INDEX: Page = new Page('Home', '/');
+  public static readonly ABOUT: Page = new Page('About', '/about');
+  public static readonly EVENTS: Page = new Page('Events', '/events');
+  public static readonly TABLETOP_GAMES: Page = new Page('Tabletop games', '/tabletop-games');
+  public static readonly PRICING: Page = new Page('Pricing', '/pricing');
+  public static readonly CONTACT: Page = new Page('Contact', '/contact');
+  public static readonly NONE: Page = new Page('None', '');
 
   private constructor(name: string, path: string) {
     this.name = name;

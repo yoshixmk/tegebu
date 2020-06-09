@@ -1,9 +1,9 @@
 import React from 'react';
-import {Rule} from '../type/Rule';
+
+import { Rule } from '../type/Rule';
 
 type Props = Rule;
-type State = {
-};
+type State = Readonly<{}>;
 
 export class TegePromise extends React.Component<Props, State> {
 

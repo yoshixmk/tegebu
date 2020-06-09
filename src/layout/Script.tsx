@@ -1,10 +1,9 @@
 import React from 'react';
 
-type Props = {
+type Props = Readonly<{
   src: string;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 const id: string = Math.random().toString();
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import {Highlight, Highlights} from '../type/Highlight';
-import {TegeThumb} from './TegeThumb';
 
-type Props = {
+import { Highlight, Highlights } from '../type/Highlight';
+import { TegeThumb } from './TegeThumb';
+
+type Props = Readonly<{
   highlights: Highlights;
-};
-type State = {
-};
+}>;
+type State = Readonly<{}>;
 
 export class TegeThumbs extends React.Component<Props, State> {
 

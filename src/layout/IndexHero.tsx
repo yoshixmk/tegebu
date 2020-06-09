@@ -1,9 +1,7 @@
 import React from 'react';
 
-type Props = {
-};
-type State = {
-};
+type Props = Readonly<{}>;
+type State = Readonly<{}>;
 
 export class IndexHero extends React.Component<Props, State> {
 
