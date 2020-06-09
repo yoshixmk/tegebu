@@ -26,8 +26,8 @@ export class TegeBio extends React.Component<Props, State> {
             <p>Tabletop games club (English: English)</p>
             <p>卓上遊戯倶楽部 (日本語: Japanese)</p>
             <p>桌面游戏俱乐部 (中文: Chinese)</p>
-            <p>Club de jeux de table (Français: French)</p>
-            <p>Club de juegos de mesa (Español: Spanish)</p>
+            <p>Le club de jeux de plateau (Français: French)</p>
+            <p>El club de juegos de mesa (Español: Spanish)</p>
             <p>Câu lạc bộ tabletop games (Tiếng Việt: Vietnamese)</p>
           </div>
         </div>
